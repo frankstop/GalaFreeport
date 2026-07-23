@@ -1,0 +1,102 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f8f2"><title>Catalog | Gala Freeport–Merrick Research</title><link rel="stylesheet" href="assets/site.css?v=research-1.1"><script src="assets/analytics.js?v=research-1.0" defer></script></head><body class="catalog-page"><header class="site-header"><div class="site-header-inner"><a class="site-identity" href="index.html"><strong>Gala Freeport–Merrick</strong><span>catalog research</span></a><nav class="site-nav" aria-label="Research reports"><a href="index.html">Overview</a><a href="daily-report.html">Daily</a><a href="weekly-report.html">Weekly</a><a href="price-changes.html">Price changes</a><a href="catalog.html" aria-current="page">Catalog</a><a href="METHODOLOGY.html">Methodology</a></nav></div></header><main>
+<section class="catalog-heading" aria-labelledby="catalog-title">
+  <div>
+    <p class="eyebrow">Freeport–Merrick public online catalog</p>
+    <h1 id="catalog-title">Catalog</h1>
+    <p class="lede">Search, filter, inspect, and export every item observed in the research archive.</p>
+  </div>
+  <dl class="catalog-scope" aria-label="Catalog scope">
+    <div><dt>Total items</dt><dd id="total-items">0</dd></div>
+    <div><dt>Latest observation</dt><dd>None</dd></div>
+    <div><dt>History</dt><dd>0 calendar day</dd></div>
+  </dl>
+</section>
+
+<section class="catalog-controls" aria-labelledby="filter-title">
+  <div class="controls-heading">
+    <div><h2 id="filter-title">Find items</h2><p>Filters work across the complete union catalog.</p></div>
+    <button id="clear-filters" class="text-button" type="button">Clear filters</button>
+  </div>
+  <div class="filter-grid">
+    <label class="search-field">Search
+      <input id="catalog-search" type="search" placeholder="Name, brand, category, or source ID" autocomplete="off">
+    </label>
+    <label>Department
+      <select id="department-filter"><option value="">All departments</option></select>
+    </label>
+    <label>Brand
+      <select id="brand-filter"><option value="">All brands</option></select>
+    </label>
+    <label>Observed status
+      <select id="status-filter">
+        <option value="all">All items</option>
+        <option value="current">Present in latest snapshot</option>
+        <option value="missing">Missing from latest snapshot</option>
+      </select>
+    </label>
+    <div class="price-filter" role="group" aria-labelledby="price-filter-label">
+      <span id="price-filter-label" class="filter-legend">Latest known regular price</span>
+      <div class="price-fields">
+        <label>Minimum <input id="min-price" type="number" min="0" step="0.01" inputmode="decimal" placeholder="$0"></label>
+        <label>Maximum <input id="max-price" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Any"></label>
+      </div>
+    </div>
+    <fieldset class="check-filters">
+      <legend>Evidence</legend>
+      <label><input id="promotion-filter" type="checkbox"> Promotion in latest snapshot</label>
+      <label><input id="change-filter" type="checkbox"> Recorded price change</label>
+    </fieldset>
+  </div>
+</section>
+
+<div id="catalog-status" class="catalog-status" role="status" aria-live="polite">Loading the complete catalog index...</div>
+
+<section class="catalog-workspace" aria-label="Catalog browser">
+  <div class="results-pane">
+    <div class="results-toolbar">
+      <p id="result-count">Loading items...</p>
+      <div class="toolbar-actions">
+        <label>Sort
+          <select id="sort-order">
+            <option value="name">Name A to Z</option>
+            <option value="brand">Brand A to Z</option>
+            <option value="price-asc">Price low to high</option>
+            <option value="price-desc">Price high to low</option>
+            <option value="recent">Most recently seen</option>
+          </select>
+        </label>
+        <label>Rows
+          <select id="page-size">
+            <option value="50">50</option>
+            <option value="100" selected>100</option>
+            <option value="250">250</option>
+            <option value="all">All</option>
+          </select>
+        </label>
+        <button id="export-csv" class="secondary-button" type="button">Export filtered CSV</button>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table class="catalog-table">
+        <thead><tr><th>Item</th><th>Brand</th><th>Latest price</th><th>Evidence</th></tr></thead>
+        <tbody id="catalog-results"></tbody>
+      </table>
+      <div id="empty-results" class="empty-state" hidden><strong>No items match these filters.</strong><span>Clear one or more filters to widen the result set.</span></div>
+    </div>
+    <nav class="pagination" aria-label="Catalog pages">
+      <button id="previous-page" class="secondary-button" type="button">Previous</button>
+      <span id="page-indicator">Page 1 of 1</span>
+      <button id="next-page" class="secondary-button" type="button">Next</button>
+    </nav>
+  </div>
+
+  <aside id="detail-panel" class="detail-panel" aria-label="Selected item details" aria-live="polite">
+    <button id="close-detail" class="detail-close" type="button" aria-label="Close selected item">Close</button>
+    <div id="item-detail" class="detail-content">
+      <div class="detail-placeholder"><strong>Select an item</strong><span>Its source identifiers, categories, prices, promotions, and explicit history gaps will appear here.</span></div>
+    </div>
+  </aside>
+</section>
+
+<p class="catalog-contract"><a href="data/catalog-history/index.json">Download the catalog index JSON contract</a></p>
+</main><footer class="site-footer"><p>Independent, unaffiliated research. Source: <a href="https://galasupermarkets.com/Freeport-Merrick">Gala Supermarkets public storefront</a>. Online values are not asserted as physical shelf prices.</p></footer><script src="assets/catalog.js?v=research-1.1" defer></script></body></html>

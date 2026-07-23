@@ -1,0 +1,30 @@
+{
+  "available_snapshot_dates": [],
+  "comparison_days": 0,
+  "distinct_products": 0,
+  "files": [],
+  "filters": {
+    "brands": [],
+    "departments": [],
+    "percentage_range": {
+      "max": null,
+      "min": null
+    },
+    "price_range": {
+      "max": null,
+      "min": null
+    }
+  },
+  "from_date": null,
+  "methodology": {
+    "baseline": "Comparisons begin only after a second healthy observation."
+  },
+  "price_decreases": 0,
+  "price_increases": 0,
+  "report": "price_changes",
+  "schema_version": "1.0",
+  "snapshot_days": 0,
+  "status": "awaiting_baseline",
+  "to_date": null,
+  "total_changes": 0
+}

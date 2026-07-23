@@ -1,0 +1,126 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f8f2"><title>Price changes | Gala Freeport–Merrick Research</title><link rel="stylesheet" href="assets/site.css?v=research-1.1"><script src="assets/analytics.js?v=research-1.0" defer></script></head><body class="changes-page"><header class="site-header"><div class="site-header-inner"><a class="site-identity" href="index.html"><strong>Gala Freeport–Merrick</strong><span>catalog research</span></a><nav class="site-nav" aria-label="Research reports"><a href="index.html">Overview</a><a href="daily-report.html">Daily</a><a href="weekly-report.html">Weekly</a><a href="price-changes.html" aria-current="page">Price changes</a><a href="catalog.html">Catalog</a><a href="METHODOLOGY.html">Methodology</a></nav></div></header><main>
+<section class="change-heading" aria-labelledby="change-title">
+  <div>
+    <p class="eyebrow">Longitudinal regular-price evidence</p>
+    <h1 id="change-title">Price changes</h1>
+    <p class="lede">Compare adjacent healthy snapshots, investigate every recorded movement, and export the evidence behind a selected date range.</p>
+  </div>
+  <dl class="change-scope" aria-label="Price change archive scope">
+    <div><dt>Recorded movements</dt><dd id="archive-change-count">0</dd></div>
+    <div><dt>Distinct items</dt><dd>0</dd></div>
+    <div><dt>Comparison intervals</dt><dd>0</dd></div>
+    <div><dt>Archive span</dt><dd>None to None</dd></div>
+  </dl>
+</section>
+
+<section id="baseline-note" class="research-note" hidden>
+  <strong>The baseline is stored; no price comparison exists yet.</strong>
+  <span>Movements appear after a second distinct healthy snapshot date. Same-day reruns strengthen the baseline but do not create a new interval.</span>
+</section>
+
+<section class="range-controls" aria-labelledby="range-title">
+  <div class="controls-heading">
+    <div><h2 id="range-title">Comparison range</h2><p>Daily files are loaded only for the selected interval.</p></div>
+    <div class="quick-ranges" aria-label="Quick date ranges">
+      <button type="button" data-range="latest">Latest</button>
+      <button type="button" data-range="7">7 days</button>
+      <button type="button" data-range="28">28 days</button>
+      <button type="button" data-range="all">All history</button>
+    </div>
+  </div>
+  <div class="date-fields">
+    <label>From <input id="change-from-date" type="date"></label>
+    <label>Through <input id="change-to-date" type="date"></label>
+    <button id="load-change-range" class="primary-button" type="button">Load range</button>
+    <p id="range-description">Preparing available comparison dates...</p>
+  </div>
+</section>
+
+<section class="catalog-controls change-filters" aria-labelledby="change-filter-title">
+  <div class="controls-heading">
+    <div><h2 id="change-filter-title">Filter movements</h2><p>Every filter applies to all records loaded for the date range.</p></div>
+    <button id="clear-change-filters" class="text-button" type="button">Clear filters</button>
+  </div>
+  <div class="change-filter-grid">
+    <label class="change-search">Search
+      <input id="change-search" type="search" placeholder="Item, brand, category, or source ID" autocomplete="off">
+    </label>
+    <label>Direction
+      <select id="direction-filter">
+        <option value="all">Increases and decreases</option>
+        <option value="increase">Increases only</option>
+        <option value="decrease">Decreases only</option>
+      </select>
+    </label>
+    <label>Department
+      <select id="change-department-filter"><option value="">All departments</option></select>
+    </label>
+    <label>Brand
+      <select id="change-brand-filter"><option value="">All brands</option></select>
+    </label>
+    <label>Minimum absolute change
+      <div class="suffix-input"><input id="minimum-change-filter" type="number" min="0" step="0.1" inputmode="decimal" placeholder="0"><span>%</span></div>
+    </label>
+    <fieldset class="check-filters change-checks">
+      <legend>Evidence</legend>
+      <label><input id="anomaly-filter" type="checkbox"> Conservative anomalies only</label>
+    </fieldset>
+  </div>
+</section>
+
+<div id="change-status" class="catalog-status" role="status" aria-live="polite">Loading price-change index...</div>
+
+<section class="change-workspace" aria-label="Price change explorer">
+  <div class="results-pane change-results-pane">
+    <div class="results-toolbar change-toolbar">
+      <div><p id="change-result-count">Loading movements...</p><span id="loaded-intervals" class="toolbar-note"></span></div>
+      <div class="toolbar-actions">
+        <label>Sort
+          <select id="change-sort-order">
+            <option value="recent">Most recent</option>
+            <option value="percent">Largest percentage</option>
+            <option value="amount">Largest dollar movement</option>
+            <option value="name">Item name</option>
+          </select>
+        </label>
+        <label>Rows
+          <select id="change-page-size">
+            <option value="50">50</option>
+            <option value="100" selected>100</option>
+            <option value="250">250</option>
+            <option value="all">All</option>
+          </select>
+        </label>
+        <div class="export-actions">
+          <button id="export-changes-csv" class="secondary-button" type="button">Export CSV</button>
+          <button id="export-changes-json" class="secondary-button" type="button">Export JSON</button>
+        </div>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table class="change-table">
+        <thead><tr><th>Interval</th><th>Item</th><th>Before / after</th><th>Movement</th><th>Context</th></tr></thead>
+        <tbody id="change-results"></tbody>
+      </table>
+      <div id="empty-changes" class="empty-state" hidden>
+        <strong>No recorded movements match this view.</strong>
+        <span id="empty-change-guidance">Widen the date range or clear one or more filters.</span>
+      </div>
+    </div>
+    <nav class="pagination" aria-label="Price change pages">
+      <button id="previous-change-page" class="secondary-button" type="button">Previous</button>
+      <span id="change-page-indicator">Page 1 of 1</span>
+      <button id="next-change-page" class="secondary-button" type="button">Next</button>
+    </nav>
+  </div>
+
+  <aside id="change-detail-panel" class="detail-panel change-detail-panel" aria-label="Selected price change details" aria-live="polite">
+    <button id="close-change-detail" class="detail-close" type="button" aria-label="Close selected price change">Close</button>
+    <div id="change-detail" class="detail-content">
+      <div class="detail-placeholder"><strong>Select a movement</strong><span>The comparison interval, source identity, category context, and loaded item timeline will appear here.</span></div>
+    </div>
+  </aside>
+</section>
+
+<p class="catalog-contract"><a href="data/price-changes/index.json">Download the price-change index JSON contract</a></p>
+</main><footer class="site-footer"><p>Independent, unaffiliated research. Source: <a href="https://galasupermarkets.com/Freeport-Merrick">Gala Supermarkets public storefront</a>. Online values are not asserted as physical shelf prices.</p></footer><script src="assets/price-changes.js?v=research-1.1" defer></script></body></html>

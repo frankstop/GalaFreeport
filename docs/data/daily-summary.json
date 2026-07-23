@@ -1,0 +1,44 @@
+{
+  "active_promotions": [],
+  "anomalies": [],
+  "assortment_changes": {
+    "additions": [],
+    "missing_products": [],
+    "returns": []
+  },
+  "brand_summary": [],
+  "category_summary": [],
+  "comparison": null,
+  "comparison_history": [],
+  "daily_history": [],
+  "latest": {
+    "average_regular_price": null,
+    "catalog_size": 0,
+    "median_regular_price": null,
+    "products_with_promotions": 0,
+    "snapshot_date": null,
+    "valid_price_percentage": null
+  },
+  "latest_healthy_observation": null,
+  "methodology": {
+    "baseline": "Comparisons begin only after a second healthy observation."
+  },
+  "previous": null,
+  "price_decreases": [],
+  "price_history_windows": [],
+  "price_increases": [],
+  "promotion_changes": {
+    "active": 0,
+    "change_count": 0,
+    "changes": [],
+    "end_count": 0,
+    "ends": [],
+    "start_count": 0,
+    "starts": []
+  },
+  "report": "daily",
+  "schema_version": "1.0",
+  "scope": "Gala Freeport–Merrick public online catalog; not asserted as physical shelf prices",
+  "snapshot_health_history": [],
+  "status": "awaiting_baseline"
+}

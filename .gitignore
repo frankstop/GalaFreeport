@@ -1,0 +1,12 @@
+.venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.DS_Store
+work/
+data/snapshots/.*.stage-*/
+*.tmp
+playwright-report/
+test-results/
+debug-screenshots/
+outputs/

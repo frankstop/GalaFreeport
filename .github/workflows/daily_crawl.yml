@@ -1,0 +1,98 @@
+name: Daily Gala Freeport-Merrick Catalog
+
+on:
+  schedule:
+    # GitHub cron is UTC. These two triggers plus the local-time gate keep the
+    # collection at 5:17 AM America/New_York across daylight-saving changes.
+    - cron: "17 9 * * *"
+    - cron: "17 10 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Verify checked-in data or perform a live collection"
+        required: true
+        default: verify
+        type: choice
+        options:
+          - verify
+          - collect
+
+concurrency:
+  group: daily-gala-freeport-catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect-analyze-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Resolve the 5 AM Eastern collection window
+        id: window
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "collect_window=true" >> "$GITHUB_OUTPUT"
+          else
+            hour="$(python -c 'from datetime import datetime; from zoneinfo import ZoneInfo; print(datetime.now(ZoneInfo("America/New_York")).strftime("%H"))')"
+            if [ "$hour" = "05" ]; then
+              echo "collect_window=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "collect_window=false" >> "$GITHUB_OUTPUT"
+              echo "Skipping duplicate UTC trigger outside the 5 AM Eastern window."
+            fi
+          fi
+
+      - name: Install package
+        run: python -m pip install -e .
+
+      - name: Install supported Playwright Chromium
+        if: (github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect'
+        run: python -m playwright install --with-deps chromium
+
+      - name: Collect complete public catalog
+        if: (github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect'
+        shell: bash
+        run: |
+          mkdir -p work
+          rm -f work/workflow_failure.txt
+          python -m gala_freeport run --verbose || {
+            code=$?
+            echo "Live collection failed closed with exit code $code; no output was committed. See the collection step log." > work/workflow_failure.txt
+            exit "$code"
+          }
+
+      - name: Run offline tests and static checks
+        if: always()
+        run: |
+          python -m unittest discover -v
+          python scripts/check.py
+
+      - name: Write workflow summary
+        if: always()
+        run: python scripts/workflow_summary.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit healthy raw and derived outputs together
+        if: success() && ((github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect')
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots docs
+          if git diff --staged --quiet; then
+            echo "No healthy snapshot or derived report changes."
+          else
+            git commit -m "data: daily Gala Freeport-Merrick catalog $(date -u +%F)"
+            git push
+          fi
