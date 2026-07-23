@@ -1,0 +1,1826 @@
+{
+  "items": [
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "335671",
+      "category_paths": [
+        "Fruit > Bananas"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Fruit"
+      ],
+      "description": "<p>Banana Cooking</p>",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0181442_banana-cooking_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": true,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 0.79,
+      "name": "Banana Cooking",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 0.79,
+            "display_price": "$0.79 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 0.79
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:268491",
+      "retailer_product_id": "268491",
+      "sku": "0000000004231",
+      "source_id": "268491",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11008",
+      "sp_id": "335671",
+      "unit_of_measure": "lb",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "336177",
+      "category_paths": [
+        "Grocery > Snacks > Cookies"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Pf Milano Milk Chocolate",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0275245_pepperidge-milano-milk-chocolate-6-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.89,
+      "name": "Pepperidge Milano Milk Chocolate, 6 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.89,
+            "display_price": "$5.89",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.89
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:268997",
+      "retailer_product_id": "268997",
+      "sku": "0001410009997",
+      "source_id": "268997",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10469",
+      "sp_id": "336177",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "336492",
+      "category_paths": [
+        "Grocery > Beverages > Drinks"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Sparkling Ice Strwbry Lmnd",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0275971_sparkling-ice-lemonade-strawbe-17-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 5.0,
+      "name": "Sparkling Ice Lemonade Strawbe, 17 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.0,
+            "display_price": "$5.00",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [
+              "multi_buy:a35c2151f6b9f199"
+            ],
+            "regular_price": 5.0
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit source quantity 4 for total $5",
+              "derived_effective_unit_price": 1.25,
+              "description": "4 for $5",
+              "promotion_id": "multi_buy:a35c2151f6b9f199"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:269312",
+      "retailer_product_id": "269312",
+      "sku": "0001657195029",
+      "source_id": "269312",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10390",
+      "sp_id": "336492",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "336611",
+      "category_paths": [
+        "Grocery > Beverages > Beer"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Bud Beer 18Pk 12Oz",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276314_budweiser-beer-can-12-oz-18-pk_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 22.99,
+      "name": "Budweiser Beer Can, 12 Oz, 18 Pk",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 22.99,
+            "display_price": "$22.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 22.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:269431",
+      "retailer_product_id": "269431",
+      "sku": "0001820011218",
+      "source_id": "269431",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10383",
+      "sp_id": "336611",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "338224",
+      "category_paths": [
+        "Bakery > Muffins & Cupcakes"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Bakery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0244391_muffin-town-muffintown-12-mini-cornbread_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 7.99,
+      "name": "Muffin Town Authentic Cornbread",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 7.99,
+            "display_price": "$7.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:271044",
+      "retailer_product_id": "271044",
+      "sku": "0003354727805",
+      "source_id": "271044",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10474",
+      "sp_id": "338224",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "339562",
+      "category_paths": [
+        "Grocery > Pasta & Noodles"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Luigi Vitelli Fetuccini",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0257098_luigi-vitelli-fetuccini_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 2.19,
+      "name": "Luigi Vitelli Fetuccini",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.99,
+            "display_price": "$1.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": "$2.19",
+            "promotion_ids": [
+              "sale:c9c22f1b920e21f5"
+            ],
+            "regular_price": 2.19
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 1.99,
+              "description": "Sale $1.99 (regular $2.19)",
+              "promotion_id": "sale:c9c22f1b920e21f5"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:272382",
+      "retailer_product_id": "272382",
+      "sku": "0004148600134",
+      "source_id": "272382",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10505",
+      "sp_id": "339562",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "339563",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Tomato"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Luigi Vitelli Crushed Tomato",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/682C5148-3962-44D2-88F9-3477E8CCEDD8_GF-image-coming-soon.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.69,
+      "name": "Luigi Vitelli Crushed Tomato",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.69,
+            "display_price": "$4.69 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.69
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:272383",
+      "retailer_product_id": "272383",
+      "sku": "0004148610288",
+      "source_id": "272383",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11117",
+      "sp_id": "339563",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "340822",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Meals"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0240638_swanson-chicken-stock_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.99,
+      "name": "Swanson Chicken Cooking Stock, 32 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:273642",
+      "retailer_product_id": "273642",
+      "sku": "0005100021446",
+      "source_id": "273642",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11197",
+      "sp_id": "340822",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "341137",
+      "category_paths": [
+        "Dairy > Yogurt"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Dairy"
+      ],
+      "description": "La Yogurt Vanilla Non Fat",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0258740_la-yogurt-vanilla-blend-qt_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 3.49,
+      "name": "La Yogurt Vanilla Non Fat, 32 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 2.99,
+            "display_price": "$2.99",
+            "is_out_of_stock": null,
+            "original_display_price": "$3.49",
+            "promotion_ids": [
+              "sale:745dae5c20f3cb81"
+            ],
+            "regular_price": 3.49
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 2.99,
+              "description": "Sale $2.99 (regular $3.49)",
+              "promotion_id": "sale:745dae5c20f3cb81"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:273957",
+      "retailer_product_id": "273957",
+      "sku": "0005360010131",
+      "source_id": "273957",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10441",
+      "sp_id": "341137",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "342080",
+      "category_paths": [
+        "Grocery > Baking Needs > Jel & Pudding"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Pudding & Pie Filling Vanilla",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0247405_my-t-fine-mytfine-vanilla-pudding_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.69,
+      "name": "My-T-Fine Pudding & Pie Filling Vanilla , 2.75 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.69,
+            "display_price": "$1.69",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.69
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:274900",
+      "retailer_product_id": "274900",
+      "sku": "0007239233016",
+      "source_id": "274900",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10499",
+      "sp_id": "342080",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "342221",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Tomato"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Tuttorosso Tomato Paste",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0237958_tuttorosso-tomato-paste_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.59,
+      "name": "Tuttorosso Tomato Paste, 6 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.59,
+            "display_price": "$1.59",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.59
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:275041",
+      "retailer_product_id": "275041",
+      "sku": "0007294075709",
+      "source_id": "275041",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11117",
+      "sp_id": "342221",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "342238",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Tuna & Salmon"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Icy Point Pink Salmon",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0238787_icy-point-pink-salmon_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 5.99,
+      "name": "Icy Point Pink Salmon",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99",
+            "is_out_of_stock": null,
+            "original_display_price": "$5.99",
+            "promotion_ids": [
+              "sale:0dd0184d599670fd"
+            ],
+            "regular_price": 5.99
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 4.99,
+              "description": "Sale $4.99 (regular $5.99)",
+              "promotion_id": "sale:0dd0184d599670fd"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:275058",
+      "retailer_product_id": "275058",
+      "sku": "0007303010315",
+      "source_id": "275058",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10524",
+      "sp_id": "342238",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "342415",
+      "category_paths": [
+        "Grocery > Beverages > Soda"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Lacroix Spark Wtr Lemon 12Pk",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0239451_la-croix-lacroix-spark-wtr-lemon-12pk_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 7.99,
+      "name": "Lacroix Sparkling Water Lemon, 12 Pk",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 7.99,
+            "display_price": "$7.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:275235",
+      "retailer_product_id": "275235",
+      "sku": "0007336037341",
+      "source_id": "275235",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10393",
+      "sp_id": "342415",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "347100",
+      "category_paths": [
+        "Grocery > Beverages > Seltzer"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Vintage Plain Seltzer",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0246769_vintage-plain-seltzer_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.99,
+      "name": "Vintage Seltzer, 2 Lt",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.99,
+            "display_price": "$1.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:279920",
+      "retailer_product_id": "279920",
+      "sku": "0007252100007",
+      "source_id": "279920",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10392",
+      "sp_id": "347100",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "348131",
+      "category_paths": [
+        "Grocery > Baking Needs > Crumbs & Crusts"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Snb Extra Crispy Cknpork",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0246025_kraft-snb-extra-crispy-cknpork_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.49,
+      "name": "Kraft Shake 'N Bake Seasoned Coating Mix, Extra Crispy, 5 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.49,
+            "display_price": "$5.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:280951",
+      "retailer_product_id": "280951",
+      "sku": "0004300005801",
+      "source_id": "280951",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10492",
+      "sp_id": "348131",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "348426",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Dressing"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Wishbone Creamy Caesar",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0245434_dressing-wishbone-creamy-caesar_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.19,
+      "name": "Wish-Bone Creamy Caesar Dressing, 15 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.19,
+            "display_price": "$4.19",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.19
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:281246",
+      "retailer_product_id": "281246",
+      "sku": "0004132100565",
+      "source_id": "281246",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10494",
+      "sp_id": "348426",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "351272",
+      "category_paths": [
+        "Baby Care > Baby Food"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Baby Care"
+      ],
+      "description": "Beechnut Stage 1 Beefbroth",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0246577_beech-nut-beechnut-stage-1-beefbroth_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.89,
+      "name": "Beech-Nut Stage 1 Beef Broth",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.89,
+            "display_price": "$1.89",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.89
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:284092",
+      "retailer_product_id": "284092",
+      "sku": "0005220000797",
+      "source_id": "284092",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10375",
+      "sp_id": "351272",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "353763",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned & Dry Milk"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Magnolia Ff Condensed Milk",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0258386_sweet-condensed-milk-magnolia-ff-condensed-milk_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 2.99,
+      "name": "Magnolia Fat Free Sweet Condensed Mlk, 14 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 2.99,
+            "display_price": "$2.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:286583",
+      "retailer_product_id": "286583",
+      "sku": "0065272910300",
+      "source_id": "286583",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11205",
+      "sp_id": "353763",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "354326",
+      "category_paths": [
+        "Frozen > Ice Cream & Sorbet > Ice Cream Tubs"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": "Haagendazs Reg Java Chip",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0265811_haagen-dazs-haagendazs-reg-java-chip_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 6.99,
+      "name": "Haagen-Dazs Ice Cream Java Chip, 14 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:287146",
+      "retailer_product_id": "287146",
+      "sku": "0007457065176",
+      "source_id": "287146",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10457",
+      "sp_id": "354326",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "354921",
+      "category_paths": [
+        "Grocery > Spices"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Old El Paso Chili Seasoning",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0258381_seasonings-old-el-paso-chili-seasoning_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.79,
+      "name": "Old El Paso Chili Seasoning Mix, 1 Oz, 1 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.79,
+            "display_price": "$1.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.79
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:287741",
+      "retailer_product_id": "287741",
+      "sku": "0004600028872",
+      "source_id": "287741",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10517",
+      "sp_id": "354921",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "356065",
+      "category_paths": [
+        "Grocery > Coffee, Tea & Cocoa > Tea"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Red Rose Tea Bags 100S",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276603_red-rose-full-flavored-black-tea-original-100-ct_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 7.49,
+      "name": "Red Rose Full Flavored Black Tea Original, 100 Ct",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 7.49,
+            "display_price": "$7.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:288885",
+      "retailer_product_id": "288885",
+      "sku": "0002070000319",
+      "source_id": "288885",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10523",
+      "sp_id": "356065",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "359177",
+      "category_paths": [
+        "Dairy > Butter & Margarine"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Dairy"
+      ],
+      "description": "Smart Balance Spread Womega",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0235675_smart-balance-spread-womega_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.49,
+      "name": "Smart Balance Dairy Free Buttery Spread With Omega 3",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.49,
+            "display_price": "$5.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:291997",
+      "retailer_product_id": "291997",
+      "sku": "0003377601103",
+      "source_id": "291997",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10439",
+      "sp_id": "359177",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "359667",
+      "category_paths": [
+        "Grocery > Snacks > Cookies"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Nestle Semi Swt Mrsl",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0244100_nestle-toll-house-nestle-semi-swt-mrsl_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 10.99,
+      "name": "Nestle Toll House Semi-Sweet Morsels, 24 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 10.99,
+            "display_price": "$10.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 10.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:292487",
+      "retailer_product_id": "292487",
+      "sku": "0002800021560",
+      "source_id": "292487",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10469",
+      "sp_id": "359667",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "363379",
+      "category_paths": [
+        "Grocery > Beverages > Drinks"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Turkey Hill Fruit Punch",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276634_turkey-hill-fruit-punch-with-100-vitamin-c-128-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.49,
+      "name": "Turkey Hill Fruit Punch With 100% Vitamin C, 128 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.49,
+            "display_price": "$4.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:296199",
+      "retailer_product_id": "296199",
+      "sku": "0002073509412",
+      "source_id": "296199",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10390",
+      "sp_id": "363379",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "363414",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Dressing"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Kraft Roka Blue Cheese Dress",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276860_kraft-robust-creamy-dressing-roka-blue-cheese-8-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.29,
+      "name": "Kraft Robust & Creamy Dressing Roka Blue Cheese, 8 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.29,
+            "display_price": "$3.29",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.29
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:296234",
+      "retailer_product_id": "296234",
+      "sku": "0002100064461",
+      "source_id": "296234",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10494",
+      "sp_id": "363414",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "363731",
+      "category_paths": [
+        "Vegetable > Broccoli & Cauliflower"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Vegetable"
+      ],
+      "description": "Broccoli",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0181414_broccoli_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": true,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.29,
+      "name": "Broccoli",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.29,
+            "display_price": "$4.29 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.29
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:296551",
+      "retailer_product_id": "296551",
+      "sku": "0000000004060",
+      "source_id": "296551",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11049",
+      "sp_id": "363731",
+      "unit_of_measure": "lb",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "557404",
+      "category_paths": [
+        "Deli > Deli Meat"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Deli"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0243911_smithfield-low-sodium-bacon_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 9.99,
+      "name": "Smithfield Naturally Hickory Smoked Lower Sodium Bacon, 16 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 9.99,
+            "display_price": "$9.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 9.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:299514",
+      "retailer_product_id": "299514",
+      "sku": "0007080004032",
+      "source_id": "299514",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10649",
+      "sp_id": "557404",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "475848",
+      "category_paths": [
+        "Grocery > Beverages > Soda"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Fanta Soda Orng 12Oz",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0235910_coca-cola-fanta-soda-orng-12oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.59,
+      "name": "fanta loose can 12 oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.59,
+            "display_price": "$4.59",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.59
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:301968",
+      "retailer_product_id": "301968",
+      "sku": "0004900001423",
+      "source_id": "301968",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10393",
+      "sp_id": "475848",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "475133",
+      "category_paths": [
+        "Grocery > Pasta & Noodles"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Luigi Vitelli Shells Pasta 16/Oz",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/682C5148-3962-44D2-88F9-3477E8CCEDD8_GF-image-coming-soon.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 2.19,
+      "name": "Luigi Vitelli Shells Pasta 16.Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.99,
+            "display_price": "$1.99",
+            "is_out_of_stock": null,
+            "original_display_price": "$2.19",
+            "promotion_ids": [
+              "sale:2801b30b0737200a"
+            ],
+            "regular_price": 2.19
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 1.99,
+              "description": "Sale $1.99 (regular $2.19)",
+              "promotion_id": "sale:2801b30b0737200a"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:302801",
+      "retailer_product_id": "302801",
+      "sku": "0004148600022",
+      "source_id": "302801",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10505",
+      "sp_id": "475133",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "553931",
+      "category_paths": [
+        "Grocery > Spices"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Mc C Cilantro Leaves",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0161520_mc-c-cilantro-leaves_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 6.99,
+      "name": "Mc C Cilantro Leaves",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:303241",
+      "retailer_product_id": "303241",
+      "sku": "0005210000838",
+      "source_id": "303241",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10517",
+      "sp_id": "553931",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "474813",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Tuna & Salmon"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Icy Point Pink Salmon",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0257391_icy-point-pink-salmon_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.59,
+      "name": "Icy Point Pink Salmon, 7.5 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.59,
+            "display_price": "$3.59",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.59
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:307895",
+      "retailer_product_id": "307895",
+      "sku": "0007303010320",
+      "source_id": "307895",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10524",
+      "sp_id": "474813",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "475480",
+      "category_paths": [
+        "Frozen > Bread & Baked Goods"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": "Smckrs Sdwch Pbj Strw Jam",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0263443_smuckers-smckrs-sdwch-pbj-strw-jam_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.99,
+      "name": "Smucker's Uncrustable Peanut Butter & Strawberry, 8 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:310611",
+      "retailer_product_id": "310611",
+      "sku": "0005150004816",
+      "source_id": "310611",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10451",
+      "sp_id": "475480",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "515772",
+      "category_paths": [
+        "Grocery > Beverages > Juices"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0275930_floridas-natural-no-pulp-orange-juice-52-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.99,
+      "name": "Florida's Natural No Pulp Orange Juice, 52 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.99,
+            "display_price": "$5.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:332280",
+      "retailer_product_id": "332280",
+      "sku": "0001630016820",
+      "source_id": "332280",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10618",
+      "sp_id": "515772",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "538837",
+      "category_paths": [
+        "Grocery > Beans & Grains > Grains"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0238877_bobs-red-mill-bbs-rdmll-gf-flaxseed_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.49,
+      "name": "Bob's Red Mill Whole Flaxseed, 13 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.49,
+            "display_price": "$3.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:333849",
+      "retailer_product_id": "333849",
+      "sku": "0003997803420",
+      "source_id": "333849",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10500",
+      "sp_id": "538837",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "551184",
+      "category_paths": [
+        "Frozen > Ice Cream & Sorbet > Ice Cream Tubs"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0259140_talenti-pt-belgium-mlk-choc_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.99,
+      "name": "Talenti Pt Belgium Mlk Choc",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.99,
+            "display_price": "$5.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:338818",
+      "retailer_product_id": "338818",
+      "sku": "0018685200031",
+      "source_id": "338818",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10457",
+      "sp_id": "551184",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "560856",
+      "category_paths": [
+        "Grocery > Cereal & Breakfast"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0275690_general-mill-hny-nt-cheerios-giant_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 9.99,
+      "name": "General Mill Hny Nt Cheerios Giant",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 9.99,
+            "display_price": "$9.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 9.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:344421",
+      "retailer_product_id": "344421",
+      "sku": "0001600012495",
+      "source_id": "344421",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10486",
+      "sp_id": "560856",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "617435",
+      "category_paths": [
+        "Household > Air Freshener"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Household"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0245024_febreze-gain-scent-small-spaces_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.99,
+      "name": "Febreze Gain Scent Small Spaces",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.99,
+            "display_price": "$3.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:369361",
+      "retailer_product_id": "369361",
+      "sku": "0003700093331",
+      "source_id": "369361",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10538",
+      "sp_id": "617435",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    }
+  ],
+  "schema_version": "1.1"
+}

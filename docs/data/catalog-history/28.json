@@ -1,0 +1,1568 @@
+{
+  "items": [
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "336624",
+      "category_paths": [
+        "Grocery > Beverages > Beer"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276348_bud-light-beer-18-ct_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 22.99,
+      "name": "Bud Light Beer, 18 Ct",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 22.99,
+            "display_price": "$22.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 22.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:269444",
+      "retailer_product_id": "269444",
+      "sku": "0001820053218",
+      "source_id": "269444",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10383",
+      "sp_id": "336624",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "337388",
+      "category_paths": [
+        "Grocery > Beverages > Drinks"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Minute Maid Strwbry Lemonade",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0277759_minute-maid-strawberry-lemonade_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 2.99,
+      "name": "Minute Maid Strawberry Lemonade",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.0,
+            "display_price": "$5.00",
+            "is_out_of_stock": null,
+            "original_display_price": "$2.99",
+            "promotion_ids": [
+              "multi_buy:37b1ec189b29b7c5"
+            ],
+            "regular_price": 2.99
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit source quantity 2 for total $5",
+              "derived_effective_unit_price": 2.5,
+              "description": "2 for $5",
+              "promotion_id": "multi_buy:37b1ec189b29b7c5"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:270208",
+      "retailer_product_id": "270208",
+      "sku": "0002500001970",
+      "source_id": "270208",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10390",
+      "sp_id": "337388",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "337570",
+      "category_paths": [
+        "Bakery > Pita & Wraps"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Bakery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0244062_la-banderitacorn-tortilla_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 2.59,
+      "name": "La Banderita Corn Tortillas, 30 Ct",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 2.59,
+            "display_price": "$2.59",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.59
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:270390",
+      "retailer_product_id": "270390",
+      "sku": "0002733100060",
+      "source_id": "270390",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10381",
+      "sp_id": "337570",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "338460",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Sauce"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Ragu Sauce Hrty Onion Garlic",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0239083_pasta-sauce-ragu-sauce-hrty-onion-garlic_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 4.49,
+      "name": "Ragu Chunky Sauce Sauteed Onion & Garlic, 24 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.99,
+            "display_price": "$3.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": "$4.49",
+            "promotion_ids": [
+              "sale:f2148db05fbbc2c9"
+            ],
+            "regular_price": 4.49
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 3.99,
+              "description": "Sale $3.99 (regular $4.49)",
+              "promotion_id": "sale:f2148db05fbbc2c9"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:271280",
+      "retailer_product_id": "271280",
+      "sku": "0003620000468",
+      "source_id": "271280",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10515",
+      "sp_id": "338460",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "339291",
+      "category_paths": [
+        "Grocery > Beans & Grains > Beans & Lentils"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "<p>Goya Beans Roman Dry</p>",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0245602_goya-beans-roman-dry_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 2.59,
+      "name": "Goya Roman Beans, 16 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 2.59,
+            "display_price": "$2.59",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.59
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:272111",
+      "retailer_product_id": "272111",
+      "sku": "0004133102483",
+      "source_id": "272111",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10482",
+      "sp_id": "339291",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "339445",
+      "category_paths": [
+        "Frozen > Frozen Fruit"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": "Goya Frozen Mamey",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0235076_goya-frozen-mamey_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.89,
+      "name": "Goya Frozen Mamey 14oz.",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.89,
+            "display_price": "$4.89",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.89
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:272265",
+      "retailer_product_id": "272265",
+      "sku": "0004133109080",
+      "source_id": "272265",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10455",
+      "sp_id": "339445",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "340793",
+      "category_paths": [
+        "Grocery > Beverages > Juices"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "V8 Vegetable Juice 6 Pk",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0240291_v8-vegetable-juice-6-pk_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 7.29,
+      "name": "V8 Original 100% Vegetable Juice, 69 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 7.29,
+            "display_price": "$7.29",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.29
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:273613",
+      "retailer_product_id": "273613",
+      "sku": "0005100015318",
+      "source_id": "273613",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10618",
+      "sp_id": "340793",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "341868",
+      "category_paths": [
+        "Bakery > Bread & Bagels"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Bakery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0264086_levys-levy-rye-bread-plain_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.09,
+      "name": "Levy's Real Jewish Rye Seedless Bread, 1 Lb",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.09,
+            "display_price": "$5.09",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.09
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:274688",
+      "retailer_product_id": "274688",
+      "sku": "0007153507200",
+      "source_id": "274688",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10466",
+      "sp_id": "341868",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "342155",
+      "category_paths": [
+        "Frozen > French Fries"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": "Mccain Sweet Potato",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0236771_mccain-mccain-swt-pot-crinkle-fries_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.99,
+      "name": "Mccain Sweet Potato, 19 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.99,
+            "display_price": "$5.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:274975",
+      "retailer_product_id": "274975",
+      "sku": "0007271405133",
+      "source_id": "274975",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11076",
+      "sp_id": "342155",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "343441",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Beans & Peas"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Ducal Bns Black Refried",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0240695_ducal-bns-black-refried_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.99,
+      "name": "Ducal Black Beans Refried",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:276261",
+      "retailer_product_id": "276261",
+      "sku": "0008831306294",
+      "source_id": "276261",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11206",
+      "sp_id": "343441",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "345678",
+      "category_paths": [
+        "Dairy > Soy & Almond Milk"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Dairy"
+      ],
+      "description": "Califia Almond Milk Original",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0259005_califia-farms-califia-almond-milk-original_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.99,
+      "name": "Califia Farms Almond Milk Creamy Original, 48 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:278498",
+      "retailer_product_id": "278498",
+      "sku": "0085290900329",
+      "source_id": "278498",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11073",
+      "sp_id": "345678",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "347349",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Sardines"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Bumble Bee Sardines Water",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0240220_sardines-in-water-bumble-bee-sardines-water_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.79,
+      "name": "Bumble Bee Sardines In Water, 3.75 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.79,
+            "display_price": "$1.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.79
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:280169",
+      "retailer_product_id": "280169",
+      "sku": "0008660075077",
+      "source_id": "280169",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10514",
+      "sp_id": "347349",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "347922",
+      "category_paths": [
+        "Dairy > Yogurt"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Dairy"
+      ],
+      "description": "Gogurt Simply Strawberry",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0254597_yoplait-gogurt-simply-strawberry_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.99,
+      "name": "Yoplait Simply Go-Gurt Strawberry Portable Low Fat Yogurt, 2 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.99,
+            "display_price": "$3.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:280742",
+      "retailer_product_id": "280742",
+      "sku": "0007047013767",
+      "source_id": "280742",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10441",
+      "sp_id": "347922",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "350578",
+      "category_paths": [
+        "Bakery > Bread & Bagels"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Bakery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0253382_martins-martins-pt-12-slcd-rl_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.59,
+      "name": "Martin's Potato Rolls Sliced, 15 Oz, 12 Ct",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.59,
+            "display_price": "$4.59",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.59
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:283398",
+      "retailer_product_id": "283398",
+      "sku": "0007518500004",
+      "source_id": "283398",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10466",
+      "sp_id": "350578",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "351056",
+      "category_paths": [
+        "Grocery > Instant Meals"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Velveeta Cp 4Pk Orig",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276704_kraft-velveeta-shells-cheese-original-cups-4-ct-239-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 7.49,
+      "name": "Kraft Velveeta Shells & Cheese Original Cups - 4 Ct, 2.39 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 7.49,
+            "display_price": "$7.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:283876",
+      "retailer_product_id": "283876",
+      "sku": "0002100002339",
+      "source_id": "283876",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10510",
+      "sp_id": "351056",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "351334",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned Sardines"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0246846_sardines-brunswick-kippered-snacks_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 2.39,
+      "name": "Brunswick Seafood Snacks Boneless Herring Fillets, 3.53 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 2.39,
+            "display_price": "$2.39",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.39
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:284154",
+      "retailer_product_id": "284154",
+      "sku": "0006661317506",
+      "source_id": "284154",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10514",
+      "sp_id": "351334",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "352680",
+      "category_paths": [
+        "Frozen > Frozen Dough"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276251_pillsbury-grands-southern-homestyle-buttermilk-biscuits-102-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.49,
+      "name": "Pillsbury Grands! Southern Homestyle Buttermilk Biscuits, 10.2 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.49,
+            "display_price": "$3.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:285500",
+      "retailer_product_id": "285500",
+      "sku": "0001800000187",
+      "source_id": "285500",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10453",
+      "sp_id": "352680",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "354449",
+      "category_paths": [
+        "Grocery > Beverages > Drinks"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Bolthouse Perf Protein Van Chai",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0251636_bolthouse-farms-bolthouse-perf-protein-van-chai_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 3.99,
+      "name": "Bolthouse Farms Vanilla Chai Tea, 15.2 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 3.99,
+            "display_price": "$3.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:287269",
+      "retailer_product_id": "287269",
+      "sku": "0007146426040",
+      "source_id": "287269",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10390",
+      "sp_id": "354449",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "355028",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Soy & Teriyaki Sauce"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Kikkoman Gf 50 Ls Tamari Soy",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0278669_kikkoman-tamari-soy-sauce-10-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.49,
+      "name": "Kikkoman Tamari Soy Sauce, 10 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.49,
+            "display_price": "$5.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:287848",
+      "retailer_product_id": "287848",
+      "sku": "0004139000064",
+      "source_id": "287848",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11119",
+      "sp_id": "355028",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "355699",
+      "category_paths": [
+        "Grocery > Snacks > Tortilla Chips"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Olextreme High Fiber Wraps",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0255928_ole-mexican-foods-olextreme-high-fiber-wraps_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.49,
+      "name": "Ole Mexican Foods Xtreme Wellness! Tortilla Wraps High Fiber Low Carb, 8 Ct",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.49,
+            "display_price": "$5.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:288519",
+      "retailer_product_id": "288519",
+      "sku": "0002733103212",
+      "source_id": "288519",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10628",
+      "sp_id": "355699",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "357820",
+      "category_paths": [
+        "Frozen > Ice Cream & Sorbet > Ice Cream Tubs"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": "Haagendazs Cookies Cream",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0245267_haagen-dazs-haagendazs-cookies-cream_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 6.99,
+      "name": "Haagen-Dazs Ice Cream Cookies & Cream, 14 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:290640",
+      "retailer_product_id": "290640",
+      "sku": "0007457027400",
+      "source_id": "290640",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10457",
+      "sp_id": "357820",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "360929",
+      "category_paths": [
+        "Deli > Cold Cuts"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Deli"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0249402_cibao-cooked-salam_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 12.99,
+      "name": "Cibao Variety Smoked Cooked Salami",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 12.99,
+            "display_price": "$12.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 12.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:293749",
+      "retailer_product_id": "293749",
+      "sku": "0078611900096",
+      "source_id": "293749",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11116",
+      "sp_id": "360929",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "360948",
+      "category_paths": [
+        "Dairy > Butter & Margarine"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Dairy"
+      ],
+      "description": "Vegetable Oil Spread Original",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0237280_olivio-spread-prem-sq-bowl_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.99,
+      "name": "Olivio Vegetable Oil Spread Original, 15 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.99,
+            "display_price": "$5.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:293768",
+      "retailer_product_id": "293768",
+      "sku": "0079645119241",
+      "source_id": "293768",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10439",
+      "sp_id": "360948",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "362274",
+      "category_paths": [
+        "Frozen > Ice Cream & Sorbet > Ice Cream Tubs"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Frozen"
+      ],
+      "description": "Taste The Tropics Rum Raisin",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0253589_taste-tropics-taste-the-tropics-rum-raisin_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 7.99,
+      "name": "Taste Tropics Rum Raisin",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 7.99,
+            "display_price": "$7.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:295094",
+      "retailer_product_id": "295094",
+      "sku": "0004982400208",
+      "source_id": "295094",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10457",
+      "sp_id": "362274",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "362499",
+      "category_paths": [
+        "Dairy > Yogurt"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Dairy"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0244519_yo-crunch-yocrunch-straw-mm_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.29,
+      "name": "Yocrunch Lowfat Strawberry Yogurt M&M's, 4 Oz, 4 Pk",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.29,
+            "display_price": "$4.29",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.29
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:295319",
+      "retailer_product_id": "295319",
+      "sku": "0004667501312",
+      "source_id": "295319",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10441",
+      "sp_id": "362499",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "363418",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Sauce"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Grocery"
+      ],
+      "description": "Lawry Hawaiian Marinade",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0276963_lawrys-hawaiian-marinade-12-oz_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 4.89,
+      "name": "Lawry's Hawaiian Marinade, 12 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 4.89,
+            "display_price": "$4.89",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.89
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:296238",
+      "retailer_product_id": "296238",
+      "sku": "0002150004806",
+      "source_id": "296238",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10515",
+      "sp_id": "363418",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "363422",
+      "category_paths": [
+        "Vegetable > Herbs"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Vegetable"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0277001_goodness-gardens-oregano-organic_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 2.5,
+      "name": "Goodness Gardens Oregano Organic",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 2.5,
+            "display_price": "$2.50 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.5
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:296242",
+      "retailer_product_id": "296242",
+      "sku": "0002198520094",
+      "source_id": "296242",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11056",
+      "sp_id": "363422",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "576334",
+      "category_paths": [
+        "Bakery > Pita & Wraps"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Bakery"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0242898_mission-8-gf-tortilla_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 6.49,
+      "name": "Mission Gluten Free Soft Taco Tortillas 6 Ct Bag",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 6.49,
+            "display_price": "$6.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.49
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:309656",
+      "retailer_product_id": "309656",
+      "sku": "0007373107140",
+      "source_id": "309656",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10381",
+      "sp_id": "576334",
+      "unit_of_measure": null,
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "536355",
+      "category_paths": [
+        "Deli > Deli Meat"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Deli"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0244535_jennie-o-jennieo-turkey-bacon_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": false,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 5.99,
+      "name": "Jennie-O Turkey Bacon, 12 Oz",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 5.99,
+            "display_price": "$5.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:316984",
+      "retailer_product_id": "316984",
+      "sku": "0004222287000",
+      "source_id": "316984",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10649",
+      "sp_id": "536355",
+      "unit_of_measure": "each",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "356560",
+      "category_paths": [
+        "Meat > Beef & Pork"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Meat"
+      ],
+      "description": "Beef Loin Shell Steak",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0182517_meat-maven-beef-loin-shell-steak_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": true,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 1,
+      "latest_regular_price": 14.99,
+      "name": "Beef Loin Shell Steak",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 13.99,
+            "display_price": "$13.99 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": "$14.99 / lb",
+            "promotion_ids": [
+              "sale:028c8e852ed7a443"
+            ],
+            "regular_price": 14.99
+          },
+          "date": "2026-07-23",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 13.99,
+              "description": "Sale $13.99 (regular $14.99)",
+              "promotion_id": "sale:028c8e852ed7a443"
+            }
+          ]
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:372908",
+      "retailer_product_id": "372908",
+      "sku": "0020139800000",
+      "source_id": "372908",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10647",
+      "sp_id": "356560",
+      "unit_of_measure": "lb",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "361303",
+      "category_paths": [
+        "Meat > Beef & Pork"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Meat"
+      ],
+      "description": null,
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0182467_meat-maven-honey-comb-tripefresh_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": true,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 9.99,
+      "name": "HONEY COMB TRIPE",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 9.99,
+            "display_price": "$9.99 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 9.99
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:372965",
+      "retailer_product_id": "372965",
+      "sku": "0020179900000",
+      "source_id": "372965",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/10647",
+      "sp_id": "361303",
+      "unit_of_measure": "lb",
+      "unit_resolution": null,
+      "weight": null
+    },
+    {
+      "branch_product_id": null,
+      "brand": null,
+      "catalog_product_id": "356447",
+      "category_paths": [
+        "Fruit > Bananas"
+      ],
+      "currency": "USD",
+      "departments": [
+        "Fruit"
+      ],
+      "description": "Organic Bananas",
+      "first_seen": "2026-07-23",
+      "has_price_change": false,
+      "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0181537_organic-bananas_300.jpeg",
+      "is_active": true,
+      "is_current": true,
+      "is_visible": true,
+      "is_weighable": true,
+      "last_seen": "2026-07-23",
+      "latest_promotion_count": 0,
+      "latest_regular_price": 1.29,
+      "name": "Organic Bananas",
+      "observations": [
+        {
+          "catalog": {
+            "current_price": 1.29,
+            "display_price": "$1.29 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.29
+          },
+          "date": "2026-07-23",
+          "promotions": []
+        }
+      ],
+      "observed_days": 1,
+      "product_key": "gala:store:6:product:375588",
+      "retailer_product_id": "375588",
+      "sku": "0000000094011",
+      "source_id": "375588",
+      "source_url": "https://galasupermarkets.com/Freeport-Merrick/category/11008",
+      "sp_id": "356447",
+      "unit_of_measure": "lb",
+      "unit_resolution": null,
+      "weight": null
+    }
+  ],
+  "schema_version": "1.1"
+}

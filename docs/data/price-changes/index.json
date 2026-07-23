@@ -1,5 +1,7 @@
 {
-  "available_snapshot_dates": [],
+  "available_snapshot_dates": [
+    "2026-07-23"
+  ],
   "comparison_days": 0,
   "distinct_products": 0,
   "files": [],
@@ -15,16 +17,20 @@
       "min": null
     }
   },
-  "from_date": null,
+  "from_date": "2026-07-23",
   "methodology": {
-    "baseline": "Comparisons begin only after a second healthy observation."
+    "anomaly_rule": "absolute price change >=20% and robust MAD z-score >=3.5",
+    "comparison": "adjacent healthy snapshot dates matched by stable retailer listing key",
+    "completeness": "daily shard files contain every comparable regular-price change without a display cap",
+    "missingness": "an item must have finite positive regular prices on both dates; gaps are not changes"
   },
   "price_decreases": 0,
   "price_increases": 0,
   "report": "price_changes",
   "schema_version": "1.0",
-  "snapshot_days": 0,
-  "status": "awaiting_baseline",
-  "to_date": null,
+  "scope": "Gala Freeport–Merrick public online regular prices; not asserted as physical shelf prices",
+  "snapshot_days": 1,
+  "status": "baseline_established",
+  "to_date": "2026-07-23",
   "total_changes": 0
 }

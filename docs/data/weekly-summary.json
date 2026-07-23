@@ -1,15 +1,178 @@
 {
   "additions": 0,
   "brand_summary": [],
-  "category_summary": [],
+  "category_summary": [
+    {
+      "median_regular_price": 3.99,
+      "name": "Grocery > Spices",
+      "products": 457
+    },
+    {
+      "median_regular_price": 3.99,
+      "name": "Grocery > Beverages > Drinks",
+      "products": 333
+    },
+    {
+      "median_regular_price": 4.49,
+      "name": "Grocery > Dressing & Sauces > Sauce",
+      "products": 292
+    },
+    {
+      "median_regular_price": 1.99,
+      "name": "Dairy > Yogurt",
+      "products": 214
+    },
+    {
+      "median_regular_price": 4.99,
+      "name": "Grocery > Beverages > Juices",
+      "products": 203
+    },
+    {
+      "median_regular_price": 3.19,
+      "name": "Grocery > Canned Goods > Canned Meals",
+      "products": 183
+    },
+    {
+      "median_regular_price": 3.29,
+      "name": "Grocery > Beverages > Soda",
+      "products": 175
+    },
+    {
+      "median_regular_price": 2.69,
+      "name": "Grocery > Instant Meals",
+      "products": 164
+    },
+    {
+      "median_regular_price": 2.29,
+      "name": "Grocery > Pasta & Noodles",
+      "products": 148
+    },
+    {
+      "median_regular_price": 6.99,
+      "name": "Frozen > Ice Cream & Sorbet > Ice Cream Tubs",
+      "products": 141
+    },
+    {
+      "median_regular_price": 6.09,
+      "name": "Frozen > Prepared Foods > Meat",
+      "products": 140
+    },
+    {
+      "median_regular_price": 7.19,
+      "name": "Grocery > Cereal & Breakfast",
+      "products": 137
+    },
+    {
+      "median_regular_price": 4.59,
+      "name": "Bakery > Bread & Bagels",
+      "products": 130
+    },
+    {
+      "median_regular_price": 1.99,
+      "name": "Household > Pet Food",
+      "products": 125
+    },
+    {
+      "median_regular_price": 2.69,
+      "name": "Baby Care > Baby Food",
+      "products": 121
+    },
+    {
+      "median_regular_price": 6.99,
+      "name": "Meat > Beef & Pork",
+      "products": 121
+    },
+    {
+      "median_regular_price": 5.49,
+      "name": "Grocery > Beans & Grains > Rice",
+      "products": 119
+    },
+    {
+      "median_regular_price": 4.49,
+      "name": "Grocery > Dressing & Sauces > Dressing",
+      "products": 117
+    },
+    {
+      "median_regular_price": 2.69,
+      "name": "Grocery > Beverages > Seltzer",
+      "products": 116
+    },
+    {
+      "median_regular_price": 5.89,
+      "name": "Grocery > Snacks > Cookies",
+      "products": 112
+    },
+    {
+      "median_regular_price": 2.99,
+      "name": "Grocery > Canned Goods > Canned Vegetables",
+      "products": 106
+    },
+    {
+      "median_regular_price": 10.69,
+      "name": "Grocery > Coffee, Tea & Cocoa > Coffee",
+      "products": 98
+    },
+    {
+      "median_regular_price": 2.49,
+      "name": "Grocery > Canned Goods > Canned Beans & Peas",
+      "products": 96
+    },
+    {
+      "median_regular_price": 5.24,
+      "name": "Grocery > Crackers & Flatbread",
+      "products": 94
+    },
+    {
+      "median_regular_price": 9.99,
+      "name": "Grocery > Baking Needs > Oil & Shortening",
+      "products": 93
+    },
+    {
+      "median_regular_price": 11.99,
+      "name": "Grocery > Beverages > Beer",
+      "products": 92
+    },
+    {
+      "median_regular_price": 5.49,
+      "name": "Grocery > Dried Fruit & Nuts",
+      "products": 90
+    },
+    {
+      "median_regular_price": 4.99,
+      "name": "Grocery > Coffee, Tea & Cocoa > Tea",
+      "products": 89
+    },
+    {
+      "median_regular_price": 6.24,
+      "name": "Dairy > Cheese",
+      "products": 86
+    },
+    {
+      "median_regular_price": 5.59,
+      "name": "Grocery > Drink Mix",
+      "products": 82
+    }
+  ],
   "comparison_history": [],
-  "daily_history": [],
-  "from_date": null,
-  "latest_catalog_size": 0,
-  "median_catalog_size": null,
-  "median_valid_price_percentage": null,
+  "daily_history": [
+    {
+      "average_regular_price": 5.47,
+      "catalog_size": 8382,
+      "median_regular_price": 4.49,
+      "products_with_promotions": 895,
+      "snapshot_date": "2026-07-23",
+      "valid_price_percentage": 100.0
+    }
+  ],
+  "from_date": "2026-07-23",
+  "latest_catalog_size": 8382,
+  "median_catalog_size": 8382,
+  "median_valid_price_percentage": 100.0,
   "methodology": {
-    "baseline": "Comparisons begin only after a second healthy observation."
+    "anomaly_rule": "absolute price change >=20% and robust MAD z-score >=3.5",
+    "identity": "My Cloud Grocer Id scoped to store 6; SPId and SKU are retained independently and SKU is not asserted to be a UPC",
+    "missingness": "daily absence is preserved as a gap and is not treated as deletion or zero",
+    "promotion_prices": "derived effective unit prices are labeled and never replace regular prices"
   },
   "missing_products": 0,
   "price_decreases": 0,
@@ -18,8 +181,2915 @@
   "returns": 0,
   "schema_version": "1.0",
   "scope": "Gala Freeport–Merrick public online catalog; not asserted as physical shelf prices",
-  "snapshot_days": 0,
-  "snapshot_health_history": [],
-  "status": "awaiting_baseline",
-  "to_date": null
+  "snapshot_days": 1,
+  "snapshot_health_history": [
+    {
+      "adaptive_product_floor": null,
+      "category_tree_id": "1",
+      "category_tree_sha256": "c37846ac930684a6f2b70960ab35c7771324c8d19bea04fe3bfdda7ccca1b053",
+      "discovered_category_nodes": 232,
+      "discovered_leaf_nodes": 207,
+      "discovered_root_nodes": 12,
+      "duplicate_key_count": 0,
+      "elapsed_seconds": 450.954,
+      "errors": [
+        "source product 347673 has no name; used an explicit ID-based placeholder"
+      ],
+      "expected_products_from_api_totals": 8382,
+      "leaf_categories": [
+        {
+          "category_id": "11042",
+          "name": "Grapes",
+          "path_ids": [
+            "11001",
+            "11042"
+          ],
+          "path_names": [
+            "Fruit",
+            "Grapes"
+          ]
+        },
+        {
+          "category_id": "11044",
+          "name": "Stone Fruit",
+          "path_ids": [
+            "11001",
+            "11044"
+          ],
+          "path_names": [
+            "Fruit",
+            "Stone Fruit"
+          ]
+        },
+        {
+          "category_id": "11004",
+          "name": "Apples",
+          "path_ids": [
+            "11001",
+            "11004"
+          ],
+          "path_names": [
+            "Fruit",
+            "Apples"
+          ]
+        },
+        {
+          "category_id": "11007",
+          "name": "Melons",
+          "path_ids": [
+            "11001",
+            "11007"
+          ],
+          "path_names": [
+            "Fruit",
+            "Melons"
+          ]
+        },
+        {
+          "category_id": "11008",
+          "name": "Bananas",
+          "path_ids": [
+            "11001",
+            "11008"
+          ],
+          "path_names": [
+            "Fruit",
+            "Bananas"
+          ]
+        },
+        {
+          "category_id": "11009",
+          "name": "Pears",
+          "path_ids": [
+            "11001",
+            "11009"
+          ],
+          "path_names": [
+            "Fruit",
+            "Pears"
+          ]
+        },
+        {
+          "category_id": "11010",
+          "name": "Berries & Cherries",
+          "path_ids": [
+            "11001",
+            "11010"
+          ],
+          "path_names": [
+            "Fruit",
+            "Berries & Cherries"
+          ]
+        },
+        {
+          "category_id": "11012",
+          "name": "Citrus",
+          "path_ids": [
+            "11001",
+            "11012"
+          ],
+          "path_names": [
+            "Fruit",
+            "Citrus"
+          ]
+        },
+        {
+          "category_id": "11013",
+          "name": "Tropical & Specialty",
+          "path_ids": [
+            "11001",
+            "11013"
+          ],
+          "path_names": [
+            "Fruit",
+            "Tropical & Specialty"
+          ]
+        },
+        {
+          "category_id": "11045",
+          "name": "Asparagus & Artichoke",
+          "path_ids": [
+            "11002",
+            "11045"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Asparagus & Artichoke"
+          ]
+        },
+        {
+          "category_id": "11046",
+          "name": "Avocado",
+          "path_ids": [
+            "11002",
+            "11046"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Avocado"
+          ]
+        },
+        {
+          "category_id": "11047",
+          "name": "Beans & Peas",
+          "path_ids": [
+            "11002",
+            "11047"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Beans & Peas"
+          ]
+        },
+        {
+          "category_id": "11048",
+          "name": "Beets & Radish",
+          "path_ids": [
+            "11002",
+            "11048"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Beets & Radish"
+          ]
+        },
+        {
+          "category_id": "11049",
+          "name": "Broccoli & Cauliflower",
+          "path_ids": [
+            "11002",
+            "11049"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Broccoli & Cauliflower"
+          ]
+        },
+        {
+          "category_id": "11050",
+          "name": "Cabbage",
+          "path_ids": [
+            "11002",
+            "11050"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Cabbage"
+          ]
+        },
+        {
+          "category_id": "11051",
+          "name": "Carrot",
+          "path_ids": [
+            "11002",
+            "11051"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Carrot"
+          ]
+        },
+        {
+          "category_id": "11052",
+          "name": "Celery",
+          "path_ids": [
+            "11002",
+            "11052"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Celery"
+          ]
+        },
+        {
+          "category_id": "11053",
+          "name": "Corn",
+          "path_ids": [
+            "11002",
+            "11053"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Corn"
+          ]
+        },
+        {
+          "category_id": "11054",
+          "name": "Cucumber",
+          "path_ids": [
+            "11002",
+            "11054"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Cucumber"
+          ]
+        },
+        {
+          "category_id": "11055",
+          "name": "Eggplant",
+          "path_ids": [
+            "11002",
+            "11055"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Eggplant"
+          ]
+        },
+        {
+          "category_id": "11056",
+          "name": "Herbs",
+          "path_ids": [
+            "11002",
+            "11056"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Herbs"
+          ]
+        },
+        {
+          "category_id": "11057",
+          "name": "Leafy Greens",
+          "path_ids": [
+            "11002",
+            "11057"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Leafy Greens"
+          ]
+        },
+        {
+          "category_id": "11058",
+          "name": "Lettuce",
+          "path_ids": [
+            "11002",
+            "11058"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Lettuce"
+          ]
+        },
+        {
+          "category_id": "11059",
+          "name": "Mushroom",
+          "path_ids": [
+            "11002",
+            "11059"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Mushroom"
+          ]
+        },
+        {
+          "category_id": "11060",
+          "name": "Onions & Garlic",
+          "path_ids": [
+            "11002",
+            "11060"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Onions & Garlic"
+          ]
+        },
+        {
+          "category_id": "11061",
+          "name": "Pepper",
+          "path_ids": [
+            "11002",
+            "11061"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Pepper"
+          ]
+        },
+        {
+          "category_id": "11062",
+          "name": "Potato",
+          "path_ids": [
+            "11002",
+            "11062"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Potato"
+          ]
+        },
+        {
+          "category_id": "11063",
+          "name": "Sprouts",
+          "path_ids": [
+            "11002",
+            "11063"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Sprouts"
+          ]
+        },
+        {
+          "category_id": "11064",
+          "name": "Squash & Zucchini",
+          "path_ids": [
+            "11002",
+            "11064"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Squash & Zucchini"
+          ]
+        },
+        {
+          "category_id": "11065",
+          "name": "Tomato",
+          "path_ids": [
+            "11002",
+            "11065"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Tomato"
+          ]
+        },
+        {
+          "category_id": "11072",
+          "name": "Root Vegetables",
+          "path_ids": [
+            "11002",
+            "11072"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Root Vegetables"
+          ]
+        },
+        {
+          "category_id": "10373",
+          "name": "Salads & Dressings",
+          "path_ids": [
+            "11002",
+            "10373"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Salads & Dressings"
+          ]
+        },
+        {
+          "category_id": "11096",
+          "name": "Cut & Prepackaged Vegetables",
+          "path_ids": [
+            "11002",
+            "11096"
+          ],
+          "path_names": [
+            "Vegetable",
+            "Cut & Prepackaged Vegetables"
+          ]
+        },
+        {
+          "category_id": "10648",
+          "name": "Chicken",
+          "path_ids": [
+            "10395",
+            "10648"
+          ],
+          "path_names": [
+            "Meat",
+            "Chicken"
+          ]
+        },
+        {
+          "category_id": "10647",
+          "name": "Beef & Pork",
+          "path_ids": [
+            "10395",
+            "10647"
+          ],
+          "path_names": [
+            "Meat",
+            "Beef & Pork"
+          ]
+        },
+        {
+          "category_id": "10553",
+          "name": "Turkey",
+          "path_ids": [
+            "10395",
+            "10553"
+          ],
+          "path_names": [
+            "Meat",
+            "Turkey"
+          ]
+        },
+        {
+          "category_id": "10550",
+          "name": "Lamb",
+          "path_ids": [
+            "10395",
+            "10550"
+          ],
+          "path_names": [
+            "Meat",
+            "Lamb"
+          ]
+        },
+        {
+          "category_id": "10551",
+          "name": "Cold Cuts",
+          "path_ids": [
+            "10395",
+            "10551"
+          ],
+          "path_names": [
+            "Meat",
+            "Cold Cuts"
+          ]
+        },
+        {
+          "category_id": "10731",
+          "name": "Veal",
+          "path_ids": [
+            "10395",
+            "10731"
+          ],
+          "path_names": [
+            "Meat",
+            "Veal"
+          ]
+        },
+        {
+          "category_id": "10454",
+          "name": "Frozen Seafood",
+          "path_ids": [
+            "10519",
+            "10454"
+          ],
+          "path_names": [
+            "Seafood",
+            "Frozen Seafood"
+          ]
+        },
+        {
+          "category_id": "11066",
+          "name": "Fresh Seafood",
+          "path_ids": [
+            "10519",
+            "11066"
+          ],
+          "path_names": [
+            "Seafood",
+            "Fresh Seafood"
+          ]
+        },
+        {
+          "category_id": "11071",
+          "name": "Showcase",
+          "path_ids": [
+            "10612",
+            "11071"
+          ],
+          "path_names": [
+            "Deli",
+            "Showcase"
+          ]
+        },
+        {
+          "category_id": "11070",
+          "name": "Grab & Go",
+          "path_ids": [
+            "10612",
+            "11070"
+          ],
+          "path_names": [
+            "Deli",
+            "Grab & Go"
+          ]
+        },
+        {
+          "category_id": "10649",
+          "name": "Deli Meat",
+          "path_ids": [
+            "10612",
+            "10649"
+          ],
+          "path_names": [
+            "Deli",
+            "Deli Meat"
+          ]
+        },
+        {
+          "category_id": "11111",
+          "name": "Salads & Dips",
+          "path_ids": [
+            "10612",
+            "11111"
+          ],
+          "path_names": [
+            "Deli",
+            "Salads & Dips"
+          ]
+        },
+        {
+          "category_id": "10645",
+          "name": "Pickles, Olives & Kraut",
+          "path_ids": [
+            "10612",
+            "10645"
+          ],
+          "path_names": [
+            "Deli",
+            "Pickles, Olives & Kraut"
+          ]
+        },
+        {
+          "category_id": "10448",
+          "name": "Smoked Fish",
+          "path_ids": [
+            "10612",
+            "10448"
+          ],
+          "path_names": [
+            "Deli",
+            "Smoked Fish"
+          ]
+        },
+        {
+          "category_id": "11116",
+          "name": "Cold Cuts",
+          "path_ids": [
+            "10612",
+            "11116"
+          ],
+          "path_names": [
+            "Deli",
+            "Cold Cuts"
+          ]
+        },
+        {
+          "category_id": "11204",
+          "name": "Sliced Cheese",
+          "path_ids": [
+            "10612",
+            "11204"
+          ],
+          "path_names": [
+            "Deli",
+            "Sliced Cheese"
+          ]
+        },
+        {
+          "category_id": "11215",
+          "name": "Sliced Meats",
+          "path_ids": [
+            "10612",
+            "11215"
+          ],
+          "path_names": [
+            "Deli",
+            "Sliced Meats"
+          ]
+        },
+        {
+          "category_id": "10466",
+          "name": "Bread & Bagels",
+          "path_ids": [
+            "10379",
+            "10466"
+          ],
+          "path_names": [
+            "Bakery",
+            "Bread & Bagels"
+          ]
+        },
+        {
+          "category_id": "10381",
+          "name": "Pita & Wraps",
+          "path_ids": [
+            "10379",
+            "10381"
+          ],
+          "path_names": [
+            "Bakery",
+            "Pita & Wraps"
+          ]
+        },
+        {
+          "category_id": "10682",
+          "name": "Cheese Cakes",
+          "path_ids": [
+            "10379",
+            "10682"
+          ],
+          "path_names": [
+            "Bakery",
+            "Cheese Cakes"
+          ]
+        },
+        {
+          "category_id": "10380",
+          "name": "Cakes",
+          "path_ids": [
+            "10379",
+            "10380"
+          ],
+          "path_names": [
+            "Bakery",
+            "Cakes"
+          ]
+        },
+        {
+          "category_id": "10471",
+          "name": "Donuts & Pastries",
+          "path_ids": [
+            "10379",
+            "10471"
+          ],
+          "path_names": [
+            "Bakery",
+            "Donuts & Pastries"
+          ]
+        },
+        {
+          "category_id": "10474",
+          "name": "Muffins & Cupcakes",
+          "path_ids": [
+            "10379",
+            "10474"
+          ],
+          "path_names": [
+            "Bakery",
+            "Muffins & Cupcakes"
+          ]
+        },
+        {
+          "category_id": "10651",
+          "name": "Cookies",
+          "path_ids": [
+            "10379",
+            "10651"
+          ],
+          "path_names": [
+            "Bakery",
+            "Cookies"
+          ]
+        },
+        {
+          "category_id": "10676",
+          "name": "Canned Vegetables",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10676"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Vegetables"
+          ]
+        },
+        {
+          "category_id": "11197",
+          "name": "Canned Meals",
+          "path_ids": [
+            "10387",
+            "10388",
+            "11197"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Meals"
+          ]
+        },
+        {
+          "category_id": "11207",
+          "name": "Canned Soup",
+          "path_ids": [
+            "10387",
+            "10388",
+            "11207"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Soup"
+          ]
+        },
+        {
+          "category_id": "10675",
+          "name": "Canned Fruits",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10675"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Fruits"
+          ]
+        },
+        {
+          "category_id": "10509",
+          "name": "Canned Pickles",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10509"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Pickles"
+          ]
+        },
+        {
+          "category_id": "10507",
+          "name": "Canned Olives",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10507"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Olives"
+          ]
+        },
+        {
+          "category_id": "10524",
+          "name": "Canned Tuna & Salmon",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10524"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Tuna & Salmon"
+          ]
+        },
+        {
+          "category_id": "10514",
+          "name": "Canned Sardines",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10514"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Sardines"
+          ]
+        },
+        {
+          "category_id": "10480",
+          "name": "Applesauce",
+          "path_ids": [
+            "10387",
+            "10388",
+            "10480"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Applesauce"
+          ]
+        },
+        {
+          "category_id": "11206",
+          "name": "Canned Beans & Peas",
+          "path_ids": [
+            "10387",
+            "10388",
+            "11206"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Beans & Peas"
+          ]
+        },
+        {
+          "category_id": "11117",
+          "name": "Canned Tomato",
+          "path_ids": [
+            "10387",
+            "10388",
+            "11117"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned Tomato"
+          ]
+        },
+        {
+          "category_id": "11205",
+          "name": "Canned & Dry Milk",
+          "path_ids": [
+            "10387",
+            "10388",
+            "11205"
+          ],
+          "path_names": [
+            "Grocery",
+            "Canned Goods",
+            "Canned & Dry Milk"
+          ]
+        },
+        {
+          "category_id": "10434",
+          "name": "Dried Fruit & Nuts",
+          "path_ids": [
+            "10387",
+            "10434"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dried Fruit & Nuts"
+          ]
+        },
+        {
+          "category_id": "10482",
+          "name": "Beans & Lentils",
+          "path_ids": [
+            "10387",
+            "10481",
+            "10482"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beans & Grains",
+            "Beans & Lentils"
+          ]
+        },
+        {
+          "category_id": "10500",
+          "name": "Grains",
+          "path_ids": [
+            "10387",
+            "10481",
+            "10500"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beans & Grains",
+            "Grains"
+          ]
+        },
+        {
+          "category_id": "10511",
+          "name": "Rice",
+          "path_ids": [
+            "10387",
+            "10481",
+            "10511"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beans & Grains",
+            "Rice"
+          ]
+        },
+        {
+          "category_id": "10491",
+          "name": "Flour",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10491"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Flour"
+          ]
+        },
+        {
+          "category_id": "10611",
+          "name": "Sugar",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10611"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Sugar"
+          ]
+        },
+        {
+          "category_id": "11084",
+          "name": "Sugar Substitute",
+          "path_ids": [
+            "10387",
+            "10483",
+            "11084"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Sugar Substitute"
+          ]
+        },
+        {
+          "category_id": "10513",
+          "name": "Salt",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10513"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Salt"
+          ]
+        },
+        {
+          "category_id": "10506",
+          "name": "Oil & Shortening",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10506"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Oil & Shortening"
+          ]
+        },
+        {
+          "category_id": "10662",
+          "name": "Baking Essentials",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10662"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Baking Essentials"
+          ]
+        },
+        {
+          "category_id": "10492",
+          "name": "Crumbs & Crusts",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10492"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Crumbs & Crusts"
+          ]
+        },
+        {
+          "category_id": "10484",
+          "name": "Cocoa & Mixes",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10484"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Cocoa & Mixes"
+          ]
+        },
+        {
+          "category_id": "10661",
+          "name": "Chocolate & Toppings",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10661"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Chocolate & Toppings"
+          ]
+        },
+        {
+          "category_id": "10497",
+          "name": "Honey",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10497"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Honey"
+          ]
+        },
+        {
+          "category_id": "10521",
+          "name": "Syrup & Extracts",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10521"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Syrup & Extracts"
+          ]
+        },
+        {
+          "category_id": "10498",
+          "name": "Jam & Filling",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10498"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Jam & Filling"
+          ]
+        },
+        {
+          "category_id": "10508",
+          "name": "Nut Butter",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10508"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Nut Butter"
+          ]
+        },
+        {
+          "category_id": "10499",
+          "name": "Jel & Pudding",
+          "path_ids": [
+            "10387",
+            "10483",
+            "10499"
+          ],
+          "path_names": [
+            "Grocery",
+            "Baking Needs",
+            "Jel & Pudding"
+          ]
+        },
+        {
+          "category_id": "10486",
+          "name": "Cereal & Breakfast",
+          "path_ids": [
+            "10387",
+            "10486"
+          ],
+          "path_names": [
+            "Grocery",
+            "Cereal & Breakfast"
+          ]
+        },
+        {
+          "category_id": "10488",
+          "name": "Cocoa",
+          "path_ids": [
+            "10387",
+            "10487",
+            "10488"
+          ],
+          "path_names": [
+            "Grocery",
+            "Coffee, Tea & Cocoa",
+            "Cocoa"
+          ]
+        },
+        {
+          "category_id": "10489",
+          "name": "Coffee",
+          "path_ids": [
+            "10387",
+            "10487",
+            "10489"
+          ],
+          "path_names": [
+            "Grocery",
+            "Coffee, Tea & Cocoa",
+            "Coffee"
+          ]
+        },
+        {
+          "category_id": "10523",
+          "name": "Tea",
+          "path_ids": [
+            "10387",
+            "10487",
+            "10523"
+          ],
+          "path_names": [
+            "Grocery",
+            "Coffee, Tea & Cocoa",
+            "Tea"
+          ]
+        },
+        {
+          "category_id": "10503",
+          "name": "Mayonnaise",
+          "path_ids": [
+            "10387",
+            "10493",
+            "10503"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Mayonnaise"
+          ]
+        },
+        {
+          "category_id": "10501",
+          "name": "Ketchup",
+          "path_ids": [
+            "10387",
+            "10493",
+            "10501"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Ketchup"
+          ]
+        },
+        {
+          "category_id": "10504",
+          "name": "Mustard",
+          "path_ids": [
+            "10387",
+            "10493",
+            "10504"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Mustard"
+          ]
+        },
+        {
+          "category_id": "10525",
+          "name": "Vinegar",
+          "path_ids": [
+            "10387",
+            "10493",
+            "10525"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Vinegar"
+          ]
+        },
+        {
+          "category_id": "11118",
+          "name": "Barbecue Sauce",
+          "path_ids": [
+            "10387",
+            "10493",
+            "11118"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Barbecue Sauce"
+          ]
+        },
+        {
+          "category_id": "11119",
+          "name": "Soy & Teriyaki Sauce",
+          "path_ids": [
+            "10387",
+            "10493",
+            "11119"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Soy & Teriyaki Sauce"
+          ]
+        },
+        {
+          "category_id": "10515",
+          "name": "Sauce",
+          "path_ids": [
+            "10387",
+            "10493",
+            "10515"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Sauce"
+          ]
+        },
+        {
+          "category_id": "10494",
+          "name": "Dressing",
+          "path_ids": [
+            "10387",
+            "10493",
+            "10494"
+          ],
+          "path_names": [
+            "Grocery",
+            "Dressing & Sauces",
+            "Dressing"
+          ]
+        },
+        {
+          "category_id": "10495",
+          "name": "Drink Mix",
+          "path_ids": [
+            "10387",
+            "10495"
+          ],
+          "path_names": [
+            "Grocery",
+            "Drink Mix"
+          ]
+        },
+        {
+          "category_id": "10505",
+          "name": "Pasta & Noodles",
+          "path_ids": [
+            "10387",
+            "10505"
+          ],
+          "path_names": [
+            "Grocery",
+            "Pasta & Noodles"
+          ]
+        },
+        {
+          "category_id": "10510",
+          "name": "Instant Meals",
+          "path_ids": [
+            "10387",
+            "10510"
+          ],
+          "path_names": [
+            "Grocery",
+            "Instant Meals"
+          ]
+        },
+        {
+          "category_id": "10516",
+          "name": "Soup Mix",
+          "path_ids": [
+            "10387",
+            "10516"
+          ],
+          "path_names": [
+            "Grocery",
+            "Soup Mix"
+          ]
+        },
+        {
+          "category_id": "10517",
+          "name": "Spices",
+          "path_ids": [
+            "10387",
+            "10517"
+          ],
+          "path_names": [
+            "Grocery",
+            "Spices"
+          ]
+        },
+        {
+          "category_id": "10469",
+          "name": "Cookies",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10469"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Cookies"
+          ]
+        },
+        {
+          "category_id": "10626",
+          "name": "Chips",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10626"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Chips"
+          ]
+        },
+        {
+          "category_id": "10571",
+          "name": "Fruit Snack",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10571"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Fruit Snack"
+          ]
+        },
+        {
+          "category_id": "10578",
+          "name": "Popcorn",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10578"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Popcorn"
+          ]
+        },
+        {
+          "category_id": "10579",
+          "name": "Pretzels",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10579"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Pretzels"
+          ]
+        },
+        {
+          "category_id": "10581",
+          "name": "Protein & Energy Bars",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10581"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Protein & Energy Bars"
+          ]
+        },
+        {
+          "category_id": "10582",
+          "name": "Variety Snacks",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10582"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Variety Snacks"
+          ]
+        },
+        {
+          "category_id": "10584",
+          "name": "Wafers",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10584"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Wafers"
+          ]
+        },
+        {
+          "category_id": "10628",
+          "name": "Tortilla Chips",
+          "path_ids": [
+            "10387",
+            "10565",
+            "10628"
+          ],
+          "path_names": [
+            "Grocery",
+            "Snacks",
+            "Tortilla Chips"
+          ]
+        },
+        {
+          "category_id": "10569",
+          "name": "Crackers & Flatbread",
+          "path_ids": [
+            "10387",
+            "10569"
+          ],
+          "path_names": [
+            "Grocery",
+            "Crackers & Flatbread"
+          ]
+        },
+        {
+          "category_id": "11077",
+          "name": "Croutons & Garnish",
+          "path_ids": [
+            "10387",
+            "11077"
+          ],
+          "path_names": [
+            "Grocery",
+            "Croutons & Garnish"
+          ]
+        },
+        {
+          "category_id": "10383",
+          "name": "Beer",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10383"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Beer"
+          ]
+        },
+        {
+          "category_id": "10385",
+          "name": "Soy, Rice & Almond Milk",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10385"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Soy, Rice & Almond Milk"
+          ]
+        },
+        {
+          "category_id": "10386",
+          "name": "Wine",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10386"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Wine"
+          ]
+        },
+        {
+          "category_id": "10390",
+          "name": "Drinks",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10390"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Drinks"
+          ]
+        },
+        {
+          "category_id": "10392",
+          "name": "Seltzer",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10392"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Seltzer"
+          ]
+        },
+        {
+          "category_id": "10393",
+          "name": "Soda",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10393"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Soda"
+          ]
+        },
+        {
+          "category_id": "10394",
+          "name": "Water",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10394"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Water"
+          ]
+        },
+        {
+          "category_id": "10618",
+          "name": "Juices",
+          "path_ids": [
+            "10387",
+            "10384",
+            "10618"
+          ],
+          "path_names": [
+            "Grocery",
+            "Beverages",
+            "Juices"
+          ]
+        },
+        {
+          "category_id": "10433",
+          "name": "Chocolate",
+          "path_ids": [
+            "10387",
+            "10432",
+            "10433"
+          ],
+          "path_names": [
+            "Grocery",
+            "Candy & Sweets",
+            "Chocolate"
+          ]
+        },
+        {
+          "category_id": "10490",
+          "name": "Ice Cream Cones",
+          "path_ids": [
+            "10387",
+            "10432",
+            "10490"
+          ],
+          "path_names": [
+            "Grocery",
+            "Candy & Sweets",
+            "Ice Cream Cones"
+          ]
+        },
+        {
+          "category_id": "10567",
+          "name": "Candy",
+          "path_ids": [
+            "10387",
+            "10432",
+            "10567"
+          ],
+          "path_names": [
+            "Grocery",
+            "Candy & Sweets",
+            "Candy"
+          ]
+        },
+        {
+          "category_id": "10573",
+          "name": "Gum",
+          "path_ids": [
+            "10387",
+            "10432",
+            "10573"
+          ],
+          "path_names": [
+            "Grocery",
+            "Candy & Sweets",
+            "Gum"
+          ]
+        },
+        {
+          "category_id": "10575",
+          "name": "Ice Pops",
+          "path_ids": [
+            "10387",
+            "10432",
+            "10575"
+          ],
+          "path_names": [
+            "Grocery",
+            "Candy & Sweets",
+            "Ice Pops"
+          ]
+        },
+        {
+          "category_id": "10576",
+          "name": "Marshmallow",
+          "path_ids": [
+            "10387",
+            "10432",
+            "10576"
+          ],
+          "path_names": [
+            "Grocery",
+            "Candy & Sweets",
+            "Marshmallow"
+          ]
+        },
+        {
+          "category_id": "10442",
+          "name": "Milk",
+          "path_ids": [
+            "10438",
+            "10442"
+          ],
+          "path_names": [
+            "Dairy",
+            "Milk"
+          ]
+        },
+        {
+          "category_id": "10439",
+          "name": "Butter & Margarine",
+          "path_ids": [
+            "10438",
+            "10439"
+          ],
+          "path_names": [
+            "Dairy",
+            "Butter & Margarine"
+          ]
+        },
+        {
+          "category_id": "10440",
+          "name": "Cheese",
+          "path_ids": [
+            "10438",
+            "10440"
+          ],
+          "path_names": [
+            "Dairy",
+            "Cheese"
+          ]
+        },
+        {
+          "category_id": "10441",
+          "name": "Yogurt",
+          "path_ids": [
+            "10438",
+            "10441"
+          ],
+          "path_names": [
+            "Dairy",
+            "Yogurt"
+          ]
+        },
+        {
+          "category_id": "10617",
+          "name": "Eggs",
+          "path_ids": [
+            "10438",
+            "10617"
+          ],
+          "path_names": [
+            "Dairy",
+            "Eggs"
+          ]
+        },
+        {
+          "category_id": "10619",
+          "name": "Tofu",
+          "path_ids": [
+            "10438",
+            "10619"
+          ],
+          "path_names": [
+            "Dairy",
+            "Tofu"
+          ]
+        },
+        {
+          "category_id": "10630",
+          "name": "Sour Cream",
+          "path_ids": [
+            "10438",
+            "10630"
+          ],
+          "path_names": [
+            "Dairy",
+            "Sour Cream"
+          ]
+        },
+        {
+          "category_id": "10631",
+          "name": "Cottage & Ricotta",
+          "path_ids": [
+            "10438",
+            "10631"
+          ],
+          "path_names": [
+            "Dairy",
+            "Cottage & Ricotta"
+          ]
+        },
+        {
+          "category_id": "10633",
+          "name": "Cream Cheese",
+          "path_ids": [
+            "10438",
+            "10633"
+          ],
+          "path_names": [
+            "Dairy",
+            "Cream Cheese"
+          ]
+        },
+        {
+          "category_id": "10635",
+          "name": "Specialty Cheese",
+          "path_ids": [
+            "10438",
+            "10635"
+          ],
+          "path_names": [
+            "Dairy",
+            "Specialty Cheese"
+          ]
+        },
+        {
+          "category_id": "10637",
+          "name": "Shredded Cheese",
+          "path_ids": [
+            "10438",
+            "10637"
+          ],
+          "path_names": [
+            "Dairy",
+            "Shredded Cheese"
+          ]
+        },
+        {
+          "category_id": "10670",
+          "name": "Iced Coffee",
+          "path_ids": [
+            "10438",
+            "10670"
+          ],
+          "path_names": [
+            "Dairy",
+            "Iced Coffee"
+          ]
+        },
+        {
+          "category_id": "11073",
+          "name": "Soy & Almond Milk",
+          "path_ids": [
+            "10438",
+            "11073"
+          ],
+          "path_names": [
+            "Dairy",
+            "Soy & Almond Milk"
+          ]
+        },
+        {
+          "category_id": "11078",
+          "name": "Whipped Cream",
+          "path_ids": [
+            "10438",
+            "11078"
+          ],
+          "path_names": [
+            "Dairy",
+            "Whipped Cream"
+          ]
+        },
+        {
+          "category_id": "11079",
+          "name": "Pudding",
+          "path_ids": [
+            "10438",
+            "11079"
+          ],
+          "path_names": [
+            "Dairy",
+            "Pudding"
+          ]
+        },
+        {
+          "category_id": "11080",
+          "name": "Coffee Creamer",
+          "path_ids": [
+            "10438",
+            "11080"
+          ],
+          "path_names": [
+            "Dairy",
+            "Coffee Creamer"
+          ]
+        },
+        {
+          "category_id": "11098",
+          "name": "Refrigerated Juices & Drinks",
+          "path_ids": [
+            "10438",
+            "11098"
+          ],
+          "path_names": [
+            "Dairy",
+            "Refrigerated Juices & Drinks"
+          ]
+        },
+        {
+          "category_id": "10451",
+          "name": "Bread & Baked Goods",
+          "path_ids": [
+            "10450",
+            "10451"
+          ],
+          "path_names": [
+            "Frozen",
+            "Bread & Baked Goods"
+          ]
+        },
+        {
+          "category_id": "10453",
+          "name": "Frozen Dough",
+          "path_ids": [
+            "10450",
+            "10453"
+          ],
+          "path_names": [
+            "Frozen",
+            "Frozen Dough"
+          ]
+        },
+        {
+          "category_id": "10455",
+          "name": "Frozen Fruit",
+          "path_ids": [
+            "10450",
+            "10455"
+          ],
+          "path_names": [
+            "Frozen",
+            "Frozen Fruit"
+          ]
+        },
+        {
+          "category_id": "10459",
+          "name": "Sorbet",
+          "path_ids": [
+            "10450",
+            "10456",
+            "10459"
+          ],
+          "path_names": [
+            "Frozen",
+            "Ice Cream & Sorbet",
+            "Sorbet"
+          ]
+        },
+        {
+          "category_id": "10457",
+          "name": "Ice Cream Tubs",
+          "path_ids": [
+            "10450",
+            "10456",
+            "10457"
+          ],
+          "path_names": [
+            "Frozen",
+            "Ice Cream & Sorbet",
+            "Ice Cream Tubs"
+          ]
+        },
+        {
+          "category_id": "10458",
+          "name": "Novelties",
+          "path_ids": [
+            "10450",
+            "10456",
+            "10458"
+          ],
+          "path_names": [
+            "Frozen",
+            "Ice Cream & Sorbet",
+            "Novelties"
+          ]
+        },
+        {
+          "category_id": "10461",
+          "name": "Dairy",
+          "path_ids": [
+            "10450",
+            "10460",
+            "10461"
+          ],
+          "path_names": [
+            "Frozen",
+            "Prepared Foods",
+            "Dairy"
+          ]
+        },
+        {
+          "category_id": "10646",
+          "name": "Meat",
+          "path_ids": [
+            "10450",
+            "10460",
+            "10646"
+          ],
+          "path_names": [
+            "Frozen",
+            "Prepared Foods",
+            "Meat"
+          ]
+        },
+        {
+          "category_id": "11115",
+          "name": "Vegetarian",
+          "path_ids": [
+            "10450",
+            "10460",
+            "11115"
+          ],
+          "path_names": [
+            "Frozen",
+            "Prepared Foods",
+            "Vegetarian"
+          ]
+        },
+        {
+          "category_id": "10463",
+          "name": "Frozen Pizza",
+          "path_ids": [
+            "10450",
+            "10463"
+          ],
+          "path_names": [
+            "Frozen",
+            "Frozen Pizza"
+          ]
+        },
+        {
+          "category_id": "10465",
+          "name": "Frozen Vegetables",
+          "path_ids": [
+            "10450",
+            "10465"
+          ],
+          "path_names": [
+            "Frozen",
+            "Frozen Vegetables"
+          ]
+        },
+        {
+          "category_id": "11075",
+          "name": "Pancakes & Waffles",
+          "path_ids": [
+            "10450",
+            "11075"
+          ],
+          "path_names": [
+            "Frozen",
+            "Pancakes & Waffles"
+          ]
+        },
+        {
+          "category_id": "11076",
+          "name": "French Fries",
+          "path_ids": [
+            "10450",
+            "11076"
+          ],
+          "path_names": [
+            "Frozen",
+            "French Fries"
+          ]
+        },
+        {
+          "category_id": "10401",
+          "name": "Candles & Matches",
+          "path_ids": [
+            "10397",
+            "10401"
+          ],
+          "path_names": [
+            "Household",
+            "Candles & Matches"
+          ]
+        },
+        {
+          "category_id": "10408",
+          "name": "Cleaning",
+          "path_ids": [
+            "10397",
+            "10408"
+          ],
+          "path_names": [
+            "Household",
+            "Cleaning"
+          ]
+        },
+        {
+          "category_id": "10411",
+          "name": "Bleach",
+          "path_ids": [
+            "10397",
+            "10415",
+            "10411"
+          ],
+          "path_names": [
+            "Household",
+            "Laundry",
+            "Bleach"
+          ]
+        },
+        {
+          "category_id": "10416",
+          "name": "Detergent",
+          "path_ids": [
+            "10397",
+            "10415",
+            "10416"
+          ],
+          "path_names": [
+            "Household",
+            "Laundry",
+            "Detergent"
+          ]
+        },
+        {
+          "category_id": "10419",
+          "name": "Fabric Softener",
+          "path_ids": [
+            "10397",
+            "10415",
+            "10419"
+          ],
+          "path_names": [
+            "Household",
+            "Laundry",
+            "Fabric Softener"
+          ]
+        },
+        {
+          "category_id": "10427",
+          "name": "Stain Removal",
+          "path_ids": [
+            "10397",
+            "10415",
+            "10427"
+          ],
+          "path_names": [
+            "Household",
+            "Laundry",
+            "Stain Removal"
+          ]
+        },
+        {
+          "category_id": "10428",
+          "name": "Starch",
+          "path_ids": [
+            "10397",
+            "10415",
+            "10428"
+          ],
+          "path_names": [
+            "Household",
+            "Laundry",
+            "Starch"
+          ]
+        },
+        {
+          "category_id": "10418",
+          "name": "Clog Removal",
+          "path_ids": [
+            "10397",
+            "10418"
+          ],
+          "path_names": [
+            "Household",
+            "Clog Removal"
+          ]
+        },
+        {
+          "category_id": "10437",
+          "name": "BBQ",
+          "path_ids": [
+            "10397",
+            "10435",
+            "10437"
+          ],
+          "path_names": [
+            "Household",
+            "Baking & Cooking",
+            "BBQ"
+          ]
+        },
+        {
+          "category_id": "10590",
+          "name": "Foil",
+          "path_ids": [
+            "10397",
+            "10435",
+            "10590"
+          ],
+          "path_names": [
+            "Household",
+            "Baking & Cooking",
+            "Foil"
+          ]
+        },
+        {
+          "category_id": "10593",
+          "name": "Pans & Lids",
+          "path_ids": [
+            "10397",
+            "10435",
+            "10593"
+          ],
+          "path_names": [
+            "Household",
+            "Baking & Cooking",
+            "Pans & Lids"
+          ]
+        },
+        {
+          "category_id": "10595",
+          "name": "Parchment",
+          "path_ids": [
+            "10397",
+            "10435",
+            "10595"
+          ],
+          "path_names": [
+            "Household",
+            "Baking & Cooking",
+            "Parchment"
+          ]
+        },
+        {
+          "category_id": "10601",
+          "name": "Plastic Wrap",
+          "path_ids": [
+            "10397",
+            "10435",
+            "10601"
+          ],
+          "path_names": [
+            "Household",
+            "Baking & Cooking",
+            "Plastic Wrap"
+          ]
+        },
+        {
+          "category_id": "11086",
+          "name": "Baking Cups",
+          "path_ids": [
+            "10397",
+            "10435",
+            "11086"
+          ],
+          "path_names": [
+            "Household",
+            "Baking & Cooking",
+            "Baking Cups"
+          ]
+        },
+        {
+          "category_id": "10538",
+          "name": "Air Freshener",
+          "path_ids": [
+            "10397",
+            "10538"
+          ],
+          "path_names": [
+            "Household",
+            "Air Freshener"
+          ]
+        },
+        {
+          "category_id": "10539",
+          "name": "Bulbs",
+          "path_ids": [
+            "10397",
+            "10539"
+          ],
+          "path_names": [
+            "Household",
+            "Bulbs"
+          ]
+        },
+        {
+          "category_id": "10540",
+          "name": "Gloves",
+          "path_ids": [
+            "10397",
+            "10540"
+          ],
+          "path_names": [
+            "Household",
+            "Gloves"
+          ]
+        },
+        {
+          "category_id": "10541",
+          "name": "Kitchen Accessories",
+          "path_ids": [
+            "10397",
+            "10541"
+          ],
+          "path_names": [
+            "Household",
+            "Kitchen Accessories"
+          ]
+        },
+        {
+          "category_id": "10543",
+          "name": "Pesticide",
+          "path_ids": [
+            "10397",
+            "10543"
+          ],
+          "path_names": [
+            "Household",
+            "Pesticide"
+          ]
+        },
+        {
+          "category_id": "10544",
+          "name": "Miscellaneous",
+          "path_ids": [
+            "10397",
+            "10544"
+          ],
+          "path_names": [
+            "Household",
+            "Miscellaneous"
+          ]
+        },
+        {
+          "category_id": "10586",
+          "name": "Storage",
+          "path_ids": [
+            "10397",
+            "10586"
+          ],
+          "path_names": [
+            "Household",
+            "Storage"
+          ]
+        },
+        {
+          "category_id": "10588",
+          "name": "Cups",
+          "path_ids": [
+            "10397",
+            "10587",
+            "10588"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Cups"
+          ]
+        },
+        {
+          "category_id": "10589",
+          "name": "Cutlery",
+          "path_ids": [
+            "10397",
+            "10587",
+            "10589"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Cutlery"
+          ]
+        },
+        {
+          "category_id": "10592",
+          "name": "Napkins",
+          "path_ids": [
+            "10397",
+            "10587",
+            "10592"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Napkins"
+          ]
+        },
+        {
+          "category_id": "10596",
+          "name": "Plates",
+          "path_ids": [
+            "10397",
+            "10587",
+            "10596"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Plates"
+          ]
+        },
+        {
+          "category_id": "10597",
+          "name": "Table Cover",
+          "path_ids": [
+            "10397",
+            "10587",
+            "10597"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Table Cover"
+          ]
+        },
+        {
+          "category_id": "10599",
+          "name": "Straws & Toothpicks",
+          "path_ids": [
+            "10397",
+            "10587",
+            "10599"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Straws & Toothpicks"
+          ]
+        },
+        {
+          "category_id": "11109",
+          "name": "Bowls",
+          "path_ids": [
+            "10397",
+            "10587",
+            "11109"
+          ],
+          "path_names": [
+            "Household",
+            "Paper & Plastic Goods",
+            "Bowls"
+          ]
+        },
+        {
+          "category_id": "10598",
+          "name": "Paper Towels & Tissues",
+          "path_ids": [
+            "10397",
+            "10598"
+          ],
+          "path_names": [
+            "Household",
+            "Paper Towels & Tissues"
+          ]
+        },
+        {
+          "category_id": "10600",
+          "name": "Trays & Serving",
+          "path_ids": [
+            "10397",
+            "10600"
+          ],
+          "path_names": [
+            "Household",
+            "Trays & Serving"
+          ]
+        },
+        {
+          "category_id": "11199",
+          "name": "Pet Supplies",
+          "path_ids": [
+            "10397",
+            "11199"
+          ],
+          "path_names": [
+            "Household",
+            "Pet Supplies"
+          ]
+        },
+        {
+          "category_id": "10673",
+          "name": "Trash Bags",
+          "path_ids": [
+            "10397",
+            "10673"
+          ],
+          "path_names": [
+            "Household",
+            "Trash Bags"
+          ]
+        },
+        {
+          "category_id": "11198",
+          "name": "Pet Food",
+          "path_ids": [
+            "10397",
+            "11198"
+          ],
+          "path_names": [
+            "Household",
+            "Pet Food"
+          ]
+        },
+        {
+          "category_id": "10527",
+          "name": "Bath",
+          "path_ids": [
+            "10526",
+            "10527"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Bath"
+          ]
+        },
+        {
+          "category_id": "10528",
+          "name": "Cream",
+          "path_ids": [
+            "10526",
+            "10528"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Cream"
+          ]
+        },
+        {
+          "category_id": "10529",
+          "name": "Dental",
+          "path_ids": [
+            "10526",
+            "10529"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Dental"
+          ]
+        },
+        {
+          "category_id": "10530",
+          "name": "Deodorant",
+          "path_ids": [
+            "10526",
+            "10530"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Deodorant"
+          ]
+        },
+        {
+          "category_id": "10531",
+          "name": "Feminine",
+          "path_ids": [
+            "10526",
+            "10531"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Feminine"
+          ]
+        },
+        {
+          "category_id": "10532",
+          "name": "First Aid",
+          "path_ids": [
+            "10526",
+            "10532"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "First Aid"
+          ]
+        },
+        {
+          "category_id": "10533",
+          "name": "Hair",
+          "path_ids": [
+            "10526",
+            "10533"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Hair"
+          ]
+        },
+        {
+          "category_id": "10536",
+          "name": "Shampoo & Conditioner",
+          "path_ids": [
+            "10526",
+            "10536"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Shampoo & Conditioner"
+          ]
+        },
+        {
+          "category_id": "10537",
+          "name": "Soap",
+          "path_ids": [
+            "10526",
+            "10537"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Soap"
+          ]
+        },
+        {
+          "category_id": "11095",
+          "name": "Vitamins & Supplements",
+          "path_ids": [
+            "10526",
+            "11095"
+          ],
+          "path_names": [
+            "Health & Beauty",
+            "Vitamins & Supplements"
+          ]
+        },
+        {
+          "category_id": "10375",
+          "name": "Baby Food",
+          "path_ids": [
+            "10374",
+            "10375"
+          ],
+          "path_names": [
+            "Baby Care",
+            "Baby Food"
+          ]
+        },
+        {
+          "category_id": "10376",
+          "name": "Bottles & Pacifiers",
+          "path_ids": [
+            "10374",
+            "10376"
+          ],
+          "path_names": [
+            "Baby Care",
+            "Bottles & Pacifiers"
+          ]
+        },
+        {
+          "category_id": "10377",
+          "name": "Diapers",
+          "path_ids": [
+            "10374",
+            "10377"
+          ],
+          "path_names": [
+            "Baby Care",
+            "Diapers"
+          ]
+        },
+        {
+          "category_id": "10378",
+          "name": "Wipes",
+          "path_ids": [
+            "10374",
+            "10378"
+          ],
+          "path_names": [
+            "Baby Care",
+            "Wipes"
+          ]
+        },
+        {
+          "category_id": "10535",
+          "name": "Baby Wellness",
+          "path_ids": [
+            "10374",
+            "10535"
+          ],
+          "path_names": [
+            "Baby Care",
+            "Baby Wellness"
+          ]
+        }
+      ],
+      "market_reference": "111 West Merrick Road, Freeport, NY 11520",
+      "observed_at": "2026-07-23T17:27:35.007425Z",
+      "prior_overlap_percentage": null,
+      "product_count_change_percentage": null,
+      "promotions": 895,
+      "raw_product_records": 8382,
+      "requests": 232,
+      "retries": 0,
+      "robots_crawl_delay": 1.5,
+      "robots_sha256": "370b720ed752cbb30e69949707add66a1a24d39411b229bd4238bd2eb693ab23",
+      "rolling_14_day_median_products": null,
+      "schema_version": "1.0",
+      "seo_location": "Freeport-Merrick",
+      "snapshot_date": "2026-07-23",
+      "source_contract_version": "my-cloud-grocer-v1",
+      "status": "healthy",
+      "store_code": "GF_Freeport_Merrick_111",
+      "store_id": 6,
+      "store_identity_sha256": "4c1f9a11b94102d659d9457dd0c787a236d005465ef5fde1b92791706071978d",
+      "store_name": "Freeport Merrick",
+      "store_system_name": "Freeport_Merrick_111",
+      "successful_leaf_categories": [
+        "11042",
+        "11044",
+        "11004",
+        "11007",
+        "11008",
+        "11009",
+        "11010",
+        "11012",
+        "11013",
+        "11045",
+        "11046",
+        "11047",
+        "11048",
+        "11049",
+        "11050",
+        "11051",
+        "11052",
+        "11053",
+        "11054",
+        "11055",
+        "11056",
+        "11057",
+        "11058",
+        "11059",
+        "11060",
+        "11061",
+        "11062",
+        "11063",
+        "11064",
+        "11065",
+        "11072",
+        "10373",
+        "11096",
+        "10648",
+        "10647",
+        "10553",
+        "10550",
+        "10551",
+        "10731",
+        "10454",
+        "11066",
+        "11071",
+        "11070",
+        "10649",
+        "11111",
+        "10645",
+        "10448",
+        "11116",
+        "11204",
+        "11215",
+        "10466",
+        "10381",
+        "10682",
+        "10380",
+        "10471",
+        "10474",
+        "10651",
+        "10676",
+        "11197",
+        "11207",
+        "10675",
+        "10509",
+        "10507",
+        "10524",
+        "10514",
+        "10480",
+        "11206",
+        "11117",
+        "11205",
+        "10434",
+        "10482",
+        "10500",
+        "10511",
+        "10491",
+        "10611",
+        "11084",
+        "10513",
+        "10506",
+        "10662",
+        "10492",
+        "10484",
+        "10661",
+        "10497",
+        "10521",
+        "10498",
+        "10508",
+        "10499",
+        "10486",
+        "10488",
+        "10489",
+        "10523",
+        "10503",
+        "10501",
+        "10504",
+        "10525",
+        "11118",
+        "11119",
+        "10515",
+        "10494",
+        "10495",
+        "10505",
+        "10510",
+        "10516",
+        "10517",
+        "10469",
+        "10626",
+        "10571",
+        "10578",
+        "10579",
+        "10581",
+        "10582",
+        "10584",
+        "10628",
+        "10569",
+        "11077",
+        "10383",
+        "10385",
+        "10386",
+        "10390",
+        "10392",
+        "10393",
+        "10394",
+        "10618",
+        "10433",
+        "10490",
+        "10567",
+        "10573",
+        "10575",
+        "10576",
+        "10442",
+        "10439",
+        "10440",
+        "10441",
+        "10617",
+        "10619",
+        "10630",
+        "10631",
+        "10633",
+        "10635",
+        "10637",
+        "10670",
+        "11073",
+        "11078",
+        "11079",
+        "11080",
+        "11098",
+        "10451",
+        "10453",
+        "10455",
+        "10459",
+        "10457",
+        "10458",
+        "10461",
+        "10646",
+        "11115",
+        "10463",
+        "10465",
+        "11075",
+        "11076",
+        "10401",
+        "10408",
+        "10411",
+        "10416",
+        "10419",
+        "10427",
+        "10428",
+        "10418",
+        "10437",
+        "10590",
+        "10593",
+        "10595",
+        "10601",
+        "11086",
+        "10538",
+        "10539",
+        "10540",
+        "10541",
+        "10543",
+        "10544",
+        "10586",
+        "10588",
+        "10589",
+        "10592",
+        "10596",
+        "10597",
+        "10599",
+        "11109",
+        "10598",
+        "10600",
+        "11199",
+        "10673",
+        "11198",
+        "10527",
+        "10528",
+        "10529",
+        "10530",
+        "10531",
+        "10532",
+        "10533",
+        "10536",
+        "10537",
+        "11095",
+        "10375",
+        "10376",
+        "10377",
+        "10378",
+        "10535"
+      ],
+      "unique_products": 8382,
+      "valid_price_percentage": 100.0
+    }
+  ],
+  "status": "baseline_established",
+  "to_date": "2026-07-23"
 }
