@@ -113,6 +113,20 @@ class ParserDiscoveryTests(unittest.TestCase):
         with self.assertRaises(ContractError):
             product_key(None)
 
+    def test_blank_source_name_uses_traceable_placeholder(self) -> None:
+        row = fixture("products_variety.json")[0]
+        row["N"] = " "
+        product = normalize_catalog_product(
+            row,
+            "2026-07-23T09:00:00Z",
+            "10393",
+            "Grocery > Beverages > Soda",
+        )
+        self.assertEqual(
+            product.name,
+            f"[Unnamed source product {row['Id']}]",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -202,6 +202,7 @@ def normalize_catalog_product(
 ) -> CatalogObservation:
     source_id = raw.get("Id")
     key = product_key(source_id)
+    source_name = _normalized(raw.get("N"))
     current_price = finite_nonnegative(raw.get("P_v"))
     if current_price is None:
         current_price = parse_price(raw.get("P"))
@@ -220,7 +221,7 @@ def normalize_catalog_product(
         source_id=str(source_id),
         sp_id=sp_id,
         sku=sku,
-        name=_normalized(raw.get("N")),
+        name=source_name or f"[Unnamed source product {source_id}]",
         description=_normalized(raw.get("D")) or None,
         brand=_normalized(raw.get("Brand") or raw.get("brand")) or None,
         regular_price=regular_price,

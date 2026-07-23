@@ -82,15 +82,24 @@ def run_pipeline(
     observations = []
     promotion_map: dict[str, Any] = {}
     promotion_warnings: list[str] = []
+    catalog_warnings: list[str] = []
     for category in raw.categories:
         path = " > ".join(category.root.path_names)
         for product in category.products:
+            if not str(product.get("N") or "").strip():
+                catalog_warnings.append(
+                    f"source product {product.get('Id')} has no name; "
+                    "used an explicit ID-based placeholder"
+                )
             observations.append(normalize_catalog_product(product, observed_at, category.root.category_id, path))
             try:
                 for promotion in normalize_promotions(product, observed_at):
                     promotion_map[promotion.promotion_key] = promotion
             except Exception as error:
-                promotion_warnings.append(f"promotion normalization warning for product {product.get('id')}: {error}")
+                promotion_warnings.append(
+                    f"promotion normalization warning for product "
+                    f"{product.get('Id')}: {error}"
+                )
     catalog = merge_product_observations(observations)
     promotions = [promotion_map[key] for key in sorted(promotion_map)]
     snapshot_dir = root / "data/snapshots"
@@ -153,7 +162,7 @@ def run_pipeline(
         robots_crawl_delay=raw.robots.crawl_delay,
         store_identity_sha256=raw.store_identity_sha256,
         category_tree_sha256=raw.category_tree_sha256,
-        errors=promotion_warnings,
+        errors=sorted(set(catalog_warnings + promotion_warnings)),
         discovered_category_nodes=raw.discovery.total_nodes,
         discovered_root_nodes=raw.discovery.root_nodes,
         discovered_leaf_nodes=raw.discovery.leaf_nodes,
