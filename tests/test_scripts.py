@@ -21,8 +21,8 @@ class ScriptTests(unittest.TestCase):
 
     def test_workflow_has_daily_collection_and_fail_closed_publish_gate(self) -> None:
         workflow = (ROOT / ".github/workflows/daily_crawl.yml").read_text()
-        self.assertIn('cron: "17 9 * * *"', workflow)
-        self.assertIn('cron: "17 10 * * *"', workflow)
+        self.assertIn('cron: "0 9 * * *"', workflow)
+        self.assertIn('cron: "0 10 * * *"', workflow)
         self.assertIn("daily-gala-freeport-catalog", workflow)
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertIn("permissions:\n  contents: write", workflow)

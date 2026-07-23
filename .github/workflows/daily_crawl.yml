@@ -3,9 +3,9 @@ name: Daily Gala Freeport-Merrick Catalog
 on:
   schedule:
     # GitHub cron is UTC. These two triggers plus the local-time gate keep the
-    # collection at 5:17 AM America/New_York across daylight-saving changes.
-    - cron: "17 9 * * *"
-    - cron: "17 10 * * *"
+    # collection at 5:00 AM America/New_York across daylight-saving changes.
+    - cron: "0 9 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
     inputs:
       mode:

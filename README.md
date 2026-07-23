@@ -10,8 +10,9 @@ Supermarkets and My Cloud Grocer.
 
 ## Status
 
-The repository is awaiting its first reviewed healthy production crawl. The
-first complete crawl is the honest baseline; comparisons begin only with a
+The first healthy production baseline was established on 2026-07-23: 8,382
+unique products, 895 promoted products, and 100% valid positive regular-price
+observations across 207 discovered leaf categories. Comparisons begin with the
 second healthy observation.
 
 - Pages: <https://frankstop.github.io/GalaFreeport/>
@@ -110,7 +111,7 @@ pagination fails closed.
 
 ## Automation
 
-GitHub Actions runs the collection at **5:17 AM America/New_York** every day,
+GitHub Actions runs the collection at **5:00 AM America/New_York** every day,
 including daylight-saving transitions. Manual dispatch supports `verify` and
 `collect`. Tests and `scripts/check.py` always run, a useful step summary is
 always written, and only a healthy raw-and-derived bundle is committed.
