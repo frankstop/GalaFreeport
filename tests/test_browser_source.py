@@ -73,6 +73,20 @@ class BrowserSourceContractTests(unittest.TestCase):
         with self.assertRaisesRegex(PaginationError, "inconsistent totals"):
             paginate_category(self.leaf, pages.__getitem__)
 
+    def test_live_minus_one_empty_leaf_sentinel_normalizes_to_empty(self) -> None:
+        payload = fixture("products_single.json")
+        payload["productsCount"] = -1
+        payload["productsJson"] = "[]"
+        payload["productsList"] = None
+        payload["pager"]["LastIndex"] = 0
+        result = paginate_category(self.leaf, lambda page: payload)
+        self.assertEqual(result.total, 0)
+        self.assertEqual(result.products, ())
+
+        payload["productsJson"] = json.dumps([{"Id": 1}])
+        with self.assertRaisesRegex(PaginationError, "non-negative integer"):
+            paginate_category(self.leaf, lambda page: payload)
+
     def test_required_paths_must_be_allowed_by_robots(self) -> None:
         policy = parse_robots("User-agent: *\nAllow: /\nCrawl-delay: 2\n", 1.5)
         self.assertEqual(policy.crawl_delay, 2)

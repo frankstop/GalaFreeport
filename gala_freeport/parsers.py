@@ -126,6 +126,16 @@ def parse_products_response(
     total = payload.get("productsCount")
     pager = payload.get("pager")
     embedded = payload.get("productsJson")
+    # The live storefront uses -1 for an empty, visible leaf. Accept only the
+    # exact sentinel combination; any negative count with data still fails.
+    if (
+        total == -1
+        and isinstance(pager, dict)
+        and pager.get("LastIndex") == 0
+        and embedded == "[]"
+        and payload.get("productsList") is None
+    ):
+        total = 0
     if not isinstance(total, int) or total < 0:
         raise ContractError("productsCount must be a non-negative integer")
     if not isinstance(pager, dict):
