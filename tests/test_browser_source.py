@@ -8,6 +8,7 @@ import unittest
 from gala_freeport.browser_source import (
     BrowserSource,
     PaginationError,
+    PRODUCT_CONTENT_TYPE,
     SourceError,
     paginate_category,
     parse_robots,
@@ -79,6 +80,10 @@ class BrowserSourceContractTests(unittest.TestCase):
             parse_robots("User-agent: *\nDisallow: /api/\n", 1.5)
 
     def test_product_request_body_matches_observed_contract(self) -> None:
+        self.assertEqual(
+            PRODUCT_CONTENT_TYPE,
+            "application/x-www-form-urlencoded; charset=UTF-8",
+        )
         self.assertEqual(
             BrowserSource._product_body("11042"),
             [

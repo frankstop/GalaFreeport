@@ -25,6 +25,7 @@ STORE_IDENTITY_PATH = "/api/multistore/StoresDialogJSON"
 CATEGORY_TREE_PATH = "/api/AjaxFilter/GetCategoryTreeJSON?filterMode=00000000"
 FOOTER_PATH = "/api/Common/FooterJSON"
 PRODUCTS_PATH = "/api/AjaxFilter/JsonProductsList"
+PRODUCT_CONTENT_TYPE = "application/x-www-form-urlencoded; charset=UTF-8"
 USER_AGENT = "GalaFreeportResearch/1.0 (+https://github.com/frankstop/GalaFreeport)"
 FORBIDDEN_PREFIXES = (
     "/api/customer",
@@ -282,9 +283,16 @@ class BrowserSource:
             self.requests += 1
             try:
                 result = page.evaluate(
-                    """async ({path, method, body}) => {
-                      const headers = {'accept': 'application/json'};
-                      if (body !== null) headers['content-type'] = 'application/json';
+                    """async ({path, method, body, productContentType}) => {
+                      const headers = {
+                        'accept': '*/*',
+                        'X-Requested-With': 'XMLHttpRequest'
+                      };
+                      // My Cloud Grocer expects a raw JSON string while declaring
+                      // the legacy form MIME type used by its own storefront.
+                      if (body !== null) {
+                        headers['content-type'] = productContentType;
+                      }
                       const response = await fetch(path, {
                         method,
                         headers,
@@ -297,7 +305,12 @@ class BrowserSource:
                         text: await response.text()
                       };
                     }""",
-                    {"path": path, "method": method, "body": body},
+                    {
+                        "path": path,
+                        "method": method,
+                        "body": body,
+                        "productContentType": PRODUCT_CONTENT_TYPE,
+                    },
                 )
                 status = int(result["status"])
                 content_type = str(result["type"])
