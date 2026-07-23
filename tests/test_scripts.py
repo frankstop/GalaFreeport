@@ -27,6 +27,8 @@ class ScriptTests(unittest.TestCase):
         self.assertIn("cancel-in-progress: false", workflow)
         self.assertIn("permissions:\n  contents: write", workflow)
         self.assertIn("python -m gala_freeport run --verbose", workflow)
+        self.assertIn("python -m playwright install chromium", workflow)
+        self.assertNotIn("playwright install --with-deps", workflow)
         self.assertIn("python -m unittest discover -v", workflow)
         self.assertIn("python scripts/check.py", workflow)
         self.assertIn("if: success()", workflow)

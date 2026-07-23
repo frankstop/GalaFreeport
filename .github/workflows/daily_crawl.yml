@@ -59,7 +59,9 @@ jobs:
 
       - name: Install supported Playwright Chromium
         if: (github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect'
-        run: python -m playwright install --with-deps chromium
+        # GitHub's Ubuntu runner image already carries Chromium's system
+        # libraries; install only Playwright's pinned browser binary.
+        run: python -m playwright install chromium
 
       - name: Collect complete public catalog
         if: (github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect'
