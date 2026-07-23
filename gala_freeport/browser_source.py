@@ -337,6 +337,24 @@ class BrowserSource:
             f"request failed after bounded retries: {last_error}"
         ) from last_error
 
+    def _fetch_verified_identity(self, page: Page) -> dict[str, Any]:
+        """Recheck transiently inconsistent store/footer pairs, then fail closed."""
+        last_error: ContractError | None = None
+        for attempt in range(self.retry_count + 1):
+            store_payload = self._fetch_json(page, STORE_IDENTITY_PATH)
+            footer_payload = self._fetch_json(page, FOOTER_PATH)
+            try:
+                return verify_store_identity(store_payload, footer_payload)
+            except ContractError as error:
+                last_error = error
+                if attempt == self.retry_count:
+                    break
+                self.retries += 1
+                time.sleep(min(2 ** attempt, 8))
+        raise SourceError(
+            f"store identity remained inconsistent after bounded retries: {last_error}"
+        ) from last_error
+
     @staticmethod
     def _product_body(category_id: str) -> list[dict[str, Any]]:
         return [
@@ -379,9 +397,7 @@ class BrowserSource:
                 )
             if page.url.rstrip("/") != STOREFRONT_URL.rstrip("/"):
                 raise SourceError(f"storefront resolved to unexpected URL {page.url!r}")
-            store_payload = self._fetch_json(page, STORE_IDENTITY_PATH)
-            footer_payload = self._fetch_json(page, FOOTER_PATH)
-            identity = verify_store_identity(store_payload, footer_payload)
+            identity = self._fetch_verified_identity(page)
             category_payload = self._fetch_json(page, CATEGORY_TREE_PATH)
             if not isinstance(category_payload, list):
                 raise SourceError("category tree endpoint did not return an array")

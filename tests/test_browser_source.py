@@ -4,6 +4,7 @@ import copy
 import json
 from pathlib import Path
 import unittest
+from unittest.mock import Mock, patch
 
 from gala_freeport.browser_source import (
     BrowserSource,
@@ -105,6 +106,22 @@ class BrowserSourceContractTests(unittest.TestCase):
                 {"FilterType": 0, "Value1": "11042", "categoryId": "11042"},
             ],
         )
+
+    def test_store_identity_pair_retries_transient_footer_mismatch(self) -> None:
+        source = BrowserSource(retry_count=1)
+        wrong_footer = {"address": "another location"}
+        source._fetch_json = Mock(
+            side_effect=[
+                fixture("store_identity.json"),
+                wrong_footer,
+                fixture("store_identity.json"),
+                fixture("footer.json"),
+            ]
+        )
+        with patch("gala_freeport.browser_source.time.sleep"):
+            identity = source._fetch_verified_identity(None)
+        self.assertEqual(identity["record"]["Id"], 6)
+        self.assertEqual(source.retries, 1)
 
 
 if __name__ == "__main__":
