@@ -1,20 +1,37 @@
 {
   "available_snapshot_dates": [
-    "2026-07-23"
+    "2026-07-23",
+    "2026-07-24"
   ],
-  "comparison_days": 0,
-  "distinct_products": 0,
-  "files": [],
+  "comparison_days": 1,
+  "distinct_products": 16,
+  "files": [
+    {
+      "anomalies": 0,
+      "from_date": "2026-07-23",
+      "matched_products": 8287,
+      "path": "2026-07-24.json",
+      "price_decreases": 2,
+      "price_increases": 14,
+      "to_date": "2026-07-24",
+      "total_changes": 16
+    }
+  ],
   "filters": {
     "brands": [],
-    "departments": [],
+    "departments": [
+      "Dairy",
+      "Fruit",
+      "Grocery",
+      "Vegetable"
+    ],
     "percentage_range": {
-      "max": null,
-      "min": null
+      "max": 400.0,
+      "min": -75.0
     },
     "price_range": {
-      "max": null,
-      "min": null
+      "max": 8.99,
+      "min": 0.8
     }
   },
   "from_date": "2026-07-23",
@@ -24,13 +41,13 @@
     "completeness": "daily shard files contain every comparable regular-price change without a display cap",
     "missingness": "an item must have finite positive regular prices on both dates; gaps are not changes"
   },
-  "price_decreases": 0,
-  "price_increases": 0,
+  "price_decreases": 2,
+  "price_increases": 14,
   "report": "price_changes",
   "schema_version": "1.0",
   "scope": "Gala Freeport–Merrick public online regular prices; not asserted as physical shelf prices",
-  "snapshot_days": 1,
-  "status": "baseline_established",
-  "to_date": "2026-07-23",
-  "total_changes": 0
+  "snapshot_days": 2,
+  "status": "comparison_available",
+  "to_date": "2026-07-24",
+  "total_changes": 16
 }
