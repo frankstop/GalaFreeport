@@ -2,10 +2,10 @@ name: Daily Gala Freeport-Merrick Catalog
 
 on:
   schedule:
-    # GitHub cron is UTC. These two triggers plus the local-time gate keep the
-    # collection at 5:00 AM America/New_York across daylight-saving changes.
-    - cron: "0 9 * * *"
-    - cron: "0 10 * * *"
+    # Run after the top-of-hour GitHub Actions load spike and before 5:30 AM.
+    # The named timezone keeps the schedule at 5:17 AM through EST/EDT changes.
+    - cron: "17 5 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:
     inputs:
       mode:
@@ -38,33 +38,17 @@ jobs:
           python-version: "3.11"
           cache: pip
 
-      - name: Resolve the 5 AM Eastern collection window
-        id: window
-        shell: bash
-        run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "collect_window=true" >> "$GITHUB_OUTPUT"
-          else
-            hour="$(python -c 'from datetime import datetime; from zoneinfo import ZoneInfo; print(datetime.now(ZoneInfo("America/New_York")).strftime("%H"))')"
-            if [ "$hour" = "05" ]; then
-              echo "collect_window=true" >> "$GITHUB_OUTPUT"
-            else
-              echo "collect_window=false" >> "$GITHUB_OUTPUT"
-              echo "Skipping duplicate UTC trigger outside the 5 AM Eastern window."
-            fi
-          fi
-
       - name: Install package
         run: python -m pip install -e .
 
       - name: Install supported Playwright Chromium
-        if: (github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect'
+        if: github.event_name == 'schedule' || inputs.mode == 'collect'
         # GitHub's Ubuntu runner image already carries Chromium's system
         # libraries; install only Playwright's pinned browser binary.
         run: python -m playwright install chromium
 
       - name: Collect complete public catalog
-        if: (github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect'
+        if: github.event_name == 'schedule' || inputs.mode == 'collect'
         shell: bash
         run: |
           mkdir -p work
@@ -86,7 +70,7 @@ jobs:
         run: python scripts/workflow_summary.py >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit healthy raw and derived outputs together
-        if: success() && ((github.event_name == 'schedule' && steps.window.outputs.collect_window == 'true') || inputs.mode == 'collect')
+        if: success() && (github.event_name == 'schedule' || inputs.mode == 'collect')
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
