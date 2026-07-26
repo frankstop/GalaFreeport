@@ -2,10 +2,11 @@
   "available_snapshot_dates": [
     "2026-07-23",
     "2026-07-24",
-    "2026-07-25"
+    "2026-07-25",
+    "2026-07-26"
   ],
-  "comparison_days": 2,
-  "distinct_products": 33,
+  "comparison_days": 3,
+  "distinct_products": 35,
   "files": [
     {
       "anomalies": 0,
@@ -26,12 +27,23 @@
       "price_increases": 14,
       "to_date": "2026-07-25",
       "total_changes": 17
+    },
+    {
+      "anomalies": 0,
+      "from_date": "2026-07-25",
+      "matched_products": 8301,
+      "path": "2026-07-26.json",
+      "price_decreases": 0,
+      "price_increases": 2,
+      "to_date": "2026-07-26",
+      "total_changes": 2
     }
   ],
   "filters": {
     "brands": [],
     "departments": [
       "Dairy",
+      "Deli",
       "Frozen",
       "Fruit",
       "Grocery",
@@ -56,12 +68,12 @@
     "missingness": "an item must have finite positive regular prices on both dates; gaps are not changes"
   },
   "price_decreases": 5,
-  "price_increases": 28,
+  "price_increases": 30,
   "report": "price_changes",
   "schema_version": "1.0",
   "scope": "Gala Freeport–Merrick public online regular prices; not asserted as physical shelf prices",
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "status": "comparison_available",
-  "to_date": "2026-07-25",
-  "total_changes": 33
+  "to_date": "2026-07-26",
+  "total_changes": 35
 }

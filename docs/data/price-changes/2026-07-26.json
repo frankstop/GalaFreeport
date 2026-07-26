@@ -1,0 +1,81 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 3.901,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "342528",
+      "category_paths": [
+        "Deli > Deli Meat"
+      ],
+      "change": 0.3,
+      "change_percentage": 3.901,
+      "current_regular_price": 7.99,
+      "departments": [
+        "Deli"
+      ],
+      "direction": "increase",
+      "event_key": "2026-07-25:2026-07-26:gala:store:6:product:275348",
+      "from_date": "2026-07-25",
+      "is_anomaly": false,
+      "name": "Sabrett Hot Sausage, 16 Oz",
+      "previous_regular_price": 7.69,
+      "product_key": "gala:store:6:product:275348",
+      "retailer_product_id": "275348",
+      "sku": "0007433800479",
+      "source_id": "275348",
+      "sp_id": "342528",
+      "to_date": "2026-07-26"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 25.063,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "345229",
+      "category_paths": [
+        "Deli > Cold Cuts"
+      ],
+      "change": 1.0,
+      "change_percentage": 25.063,
+      "current_regular_price": 4.99,
+      "departments": [
+        "Deli"
+      ],
+      "direction": "increase",
+      "event_key": "2026-07-25:2026-07-26:gala:store:6:product:278049",
+      "from_date": "2026-07-25",
+      "is_anomaly": false,
+      "name": "Gwaltney Great Bolony Traditional, 16 Oz",
+      "previous_regular_price": 3.99,
+      "product_key": "gala:store:6:product:278049",
+      "retailer_product_id": "278049",
+      "sku": "0078533176056",
+      "source_id": "278049",
+      "sp_id": "345229",
+      "to_date": "2026-07-26"
+    }
+  ],
+  "comparison": {
+    "additions": 63,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.728,
+    "matched_products": 8301,
+    "missing_products": 73,
+    "price_decreases": 0,
+    "price_increases": 2,
+    "prior_overlap_percentage": 99.128,
+    "returns": 10,
+    "unchanged_or_uncomparable_prices": 8299
+  },
+  "from_date": "2026-07-25",
+  "price_decreases": 0,
+  "price_increases": 2,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-07-26",
+  "total_changes": 2
+}
