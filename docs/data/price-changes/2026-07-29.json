@@ -1,0 +1,110 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.8,
+      "absolute_change_percentage": 11.782,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "338952",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Vinegar"
+      ],
+      "change": -0.8,
+      "change_percentage": -11.782,
+      "current_regular_price": 5.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-07-28:2026-07-29:gala:store:6:product:271772",
+      "from_date": "2026-07-28",
+      "is_anomaly": false,
+      "name": "Colavita Balsamic Vinegar Of Modena, 17 Oz",
+      "previous_regular_price": 6.79,
+      "product_key": "gala:store:6:product:271772",
+      "retailer_product_id": "271772",
+      "sku": "0003915341300",
+      "source_id": "271772",
+      "sp_id": "338952",
+      "to_date": "2026-07-29"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 14.327,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "346719",
+      "category_paths": [
+        "Deli > Cold Cuts"
+      ],
+      "change": 0.5,
+      "change_percentage": 14.327,
+      "current_regular_price": 3.99,
+      "departments": [
+        "Deli"
+      ],
+      "direction": "increase",
+      "event_key": "2026-07-28:2026-07-29:gala:store:6:product:279539",
+      "from_date": "2026-07-28",
+      "is_anomaly": false,
+      "name": "Gwaltney Great Bolony Chicken Bologna Original, 16 Oz",
+      "previous_regular_price": 3.49,
+      "product_key": "gala:store:6:product:279539",
+      "retailer_product_id": "279539",
+      "sku": "0078533176072",
+      "source_id": "279539",
+      "sp_id": "346719",
+      "to_date": "2026-07-29"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 14.286,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "352760",
+      "category_paths": [
+        "Fruit > Tropical & Specialty"
+      ],
+      "change": -1.0,
+      "change_percentage": -14.286,
+      "current_regular_price": 6.0,
+      "departments": [
+        "Fruit"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-07-28:2026-07-29:gala:store:6:product:285580",
+      "from_date": "2026-07-28",
+      "is_anomaly": false,
+      "name": "Fresh Mango",
+      "previous_regular_price": 7.0,
+      "product_key": "gala:store:6:product:285580",
+      "retailer_product_id": "285580",
+      "sku": "0000000004959",
+      "source_id": "285580",
+      "sp_id": "352760",
+      "to_date": "2026-07-29"
+    }
+  ],
+  "comparison": {
+    "additions": 48,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.99,
+    "matched_products": 8275,
+    "missing_products": 104,
+    "price_decreases": 2,
+    "price_increases": 1,
+    "prior_overlap_percentage": 98.759,
+    "returns": 16,
+    "unchanged_or_uncomparable_prices": 8272
+  },
+  "from_date": "2026-07-28",
+  "price_decreases": 2,
+  "price_increases": 1,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-07-29",
+  "total_changes": 3
+}
