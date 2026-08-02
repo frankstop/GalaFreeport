@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 25.126,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "343614",
+      "category_paths": [
+        "Household > Candles & Matches"
+      ],
+      "change": 0.5,
+      "change_percentage": 25.126,
+      "current_regular_price": 2.49,
+      "departments": [
+        "Household"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-01:2026-08-02:gala:store:6:product:276434",
+      "from_date": "2026-08-01",
+      "is_anomaly": false,
+      "name": "Candel Sagrado Corazon De Jesus",
+      "previous_regular_price": 1.99,
+      "product_key": "gala:store:6:product:276434",
+      "retailer_product_id": "276434",
+      "sku": "0018614852510",
+      "source_id": "276434",
+      "sp_id": "343614",
+      "to_date": "2026-08-02"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 15.873,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "347418",
+      "category_paths": [
+        "Household > Candles & Matches"
+      ],
+      "change": 0.3,
+      "change_percentage": 15.873,
+      "current_regular_price": 2.19,
+      "departments": [
+        "Household"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-01:2026-08-02:gala:store:6:product:280238",
+      "from_date": "2026-08-01",
+      "is_anomaly": false,
+      "name": "Vision Blue Candle Each",
+      "previous_regular_price": 1.89,
+      "product_key": "gala:store:6:product:280238",
+      "retailer_product_id": "280238",
+      "sku": "0018614800002",
+      "source_id": "280238",
+      "sp_id": "347418",
+      "to_date": "2026-08-02"
+    },
+    {
+      "absolute_change": 0.4,
+      "absolute_change_percentage": 7.03,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "351070",
+      "category_paths": [
+        "Dairy > Cheese"
+      ],
+      "change": -0.4,
+      "change_percentage": -7.03,
+      "current_regular_price": 5.29,
+      "departments": [
+        "Dairy"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-01:2026-08-02:gala:store:6:product:283890",
+      "from_date": "2026-08-01",
+      "is_anomaly": false,
+      "name": "Kraft Yellow American Singles, 24 Ct",
+      "previous_regular_price": 5.69,
+      "product_key": "gala:store:6:product:283890",
+      "retailer_product_id": "283890",
+      "sku": "0002100061526",
+      "source_id": "283890",
+      "sp_id": "351070",
+      "to_date": "2026-08-02"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 25.126,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "356889",
+      "category_paths": [
+        "Household > Candles & Matches"
+      ],
+      "change": 0.5,
+      "change_percentage": 25.126,
+      "current_regular_price": 2.49,
+      "departments": [
+        "Household"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-01:2026-08-02:gala:store:6:product:289709",
+      "from_date": "2026-08-01",
+      "is_anomaly": false,
+      "name": "San Miguel Small Candle",
+      "previous_regular_price": 1.99,
+      "product_key": "gala:store:6:product:289709",
+      "retailer_product_id": "289709",
+      "sku": "0018614854210",
+      "source_id": "289709",
+      "sp_id": "356889",
+      "to_date": "2026-08-02"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 15.873,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "357505",
+      "category_paths": [
+        "Household > Candles & Matches"
+      ],
+      "change": 0.3,
+      "change_percentage": 15.873,
+      "current_regular_price": 2.19,
+      "departments": [
+        "Household"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-01:2026-08-02:gala:store:6:product:290325",
+      "from_date": "2026-08-01",
+      "is_anomaly": false,
+      "name": "Vision Candels White Each",
+      "previous_regular_price": 1.89,
+      "product_key": "gala:store:6:product:290325",
+      "retailer_product_id": "290325",
+      "sku": "0018614800011",
+      "source_id": "290325",
+      "sp_id": "357505",
+      "to_date": "2026-08-02"
+    }
+  ],
+  "comparison": {
+    "additions": 55,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.839,
+    "matched_products": 8326,
+    "missing_products": 68,
+    "price_decreases": 1,
+    "price_increases": 4,
+    "prior_overlap_percentage": 99.19,
+    "returns": 33,
+    "unchanged_or_uncomparable_prices": 8321
+  },
+  "from_date": "2026-08-01",
+  "price_decreases": 1,
+  "price_increases": 4,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-02",
+  "total_changes": 5
+}
