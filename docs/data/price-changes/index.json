@@ -11,10 +11,11 @@
     "2026-07-31",
     "2026-08-01",
     "2026-08-02",
-    "2026-08-03"
+    "2026-08-03",
+    "2026-08-04"
   ],
-  "comparison_days": 11,
-  "distinct_products": 247,
+  "comparison_days": 12,
+  "distinct_products": 302,
   "files": [
     {
       "anomalies": 0,
@@ -125,6 +126,16 @@
       "price_increases": 0,
       "to_date": "2026-08-03",
       "total_changes": 0
+    },
+    {
+      "anomalies": 3,
+      "from_date": "2026-08-03",
+      "matched_products": 8333,
+      "path": "2026-08-04.json",
+      "price_decreases": 4,
+      "price_increases": 51,
+      "to_date": "2026-08-04",
+      "total_changes": 55
     }
   ],
   "filters": {
@@ -157,13 +168,13 @@
     "completeness": "daily shard files contain every comparable regular-price change without a display cap",
     "missingness": "an item must have finite positive regular prices on both dates; gaps are not changes"
   },
-  "price_decreases": 176,
-  "price_increases": 82,
+  "price_decreases": 180,
+  "price_increases": 133,
   "report": "price_changes",
   "schema_version": "1.0",
   "scope": "Gala Freeport–Merrick public online regular prices; not asserted as physical shelf prices",
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "status": "comparison_available",
-  "to_date": "2026-08-03",
-  "total_changes": 258
+  "to_date": "2026-08-04",
+  "total_changes": 313
 }
