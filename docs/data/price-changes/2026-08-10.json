@@ -1,0 +1,52 @@
+{
+  "changes": [
+    {
+      "absolute_change": 6.0,
+      "absolute_change_percentage": 16.671,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "352200",
+      "category_paths": [
+        "Grocery > Canned Goods > Canned & Dry Milk"
+      ],
+      "change": -6.0,
+      "change_percentage": -16.671,
+      "current_regular_price": 29.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-09:2026-08-10:gala:store:6:product:285020",
+      "from_date": "2026-08-09",
+      "is_anomaly": false,
+      "name": "Nestle Nido Fortificada Dry Whole Milk, 56.3 Oz",
+      "previous_regular_price": 35.99,
+      "product_key": "gala:store:6:product:285020",
+      "retailer_product_id": "285020",
+      "sku": "0002800082317",
+      "source_id": "285020",
+      "sp_id": "352200",
+      "to_date": "2026-08-10"
+    }
+  ],
+  "comparison": {
+    "additions": 31,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.685,
+    "matched_products": 8346,
+    "missing_products": 73,
+    "price_decreases": 1,
+    "price_increases": 0,
+    "prior_overlap_percentage": 99.133,
+    "returns": 39,
+    "unchanged_or_uncomparable_prices": 8345
+  },
+  "from_date": "2026-08-09",
+  "price_decreases": 1,
+  "price_increases": 0,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-10",
+  "total_changes": 1
+}
