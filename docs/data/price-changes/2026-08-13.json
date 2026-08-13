@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 42.017,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 2,
+      "catalog_product_id": "342080",
+      "category_paths": [
+        "Grocery > Baking Needs > Jel & Pudding"
+      ],
+      "change": 0.5,
+      "change_percentage": 42.017,
+      "current_regular_price": 1.69,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-11:2026-08-13:gala:store:6:product:274900",
+      "from_date": "2026-08-11",
+      "is_anomaly": false,
+      "name": "My-T-Fine Pudding & Pie Filling Vanilla , 2.75 Oz",
+      "previous_regular_price": 1.19,
+      "product_key": "gala:store:6:product:274900",
+      "retailer_product_id": "274900",
+      "sku": "0007239233016",
+      "source_id": "274900",
+      "sp_id": "342080",
+      "to_date": "2026-08-13"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 7.153,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 2,
+      "catalog_product_id": "343392",
+      "category_paths": [
+        "Grocery > Spices"
+      ],
+      "change": 0.5,
+      "change_percentage": 7.153,
+      "current_regular_price": 7.49,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-11:2026-08-13:gala:store:6:product:276212",
+      "from_date": "2026-08-11",
+      "is_anomaly": false,
+      "name": "Eagle Spice Chili Powder",
+      "previous_regular_price": 6.99,
+      "product_key": "gala:store:6:product:276212",
+      "retailer_product_id": "276212",
+      "sku": "0008764260030",
+      "source_id": "276212",
+      "sp_id": "343392",
+      "to_date": "2026-08-13"
+    },
+    {
+      "absolute_change": 0.9,
+      "absolute_change_percentage": 9.1,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 2,
+      "catalog_product_id": "352373",
+      "category_paths": [
+        "Grocery > Snacks > Popcorn"
+      ],
+      "change": -0.9,
+      "change_percentage": -9.1,
+      "current_regular_price": 8.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-11:2026-08-13:gala:store:6:product:285193",
+      "from_date": "2026-08-11",
+      "is_anomaly": false,
+      "name": "Pop Secret Popping Corn Big & Fluffy, 30 Oz",
+      "previous_regular_price": 9.89,
+      "product_key": "gala:store:6:product:285193",
+      "retailer_product_id": "285193",
+      "sku": "0002389617700",
+      "source_id": "285193",
+      "sp_id": "352373",
+      "to_date": "2026-08-13"
+    },
+    {
+      "absolute_change": 1.7,
+      "absolute_change_percentage": 25.411,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 2,
+      "catalog_product_id": "362088",
+      "category_paths": [
+        "Grocery > Spices"
+      ],
+      "change": -1.7,
+      "change_percentage": -25.411,
+      "current_regular_price": 4.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-11:2026-08-13:gala:store:6:product:294908",
+      "from_date": "2026-08-11",
+      "is_anomaly": false,
+      "name": "Mccormick Ground Ginger 0.7 Oz",
+      "previous_regular_price": 6.69,
+      "product_key": "gala:store:6:product:294908",
+      "retailer_product_id": "294908",
+      "sku": "0005210003750",
+      "source_id": "294908",
+      "sp_id": "362088",
+      "to_date": "2026-08-13"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 6.676,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 2,
+      "catalog_product_id": "607318",
+      "category_paths": [
+        "Health & Beauty > Feminine"
+      ],
+      "change": 0.5,
+      "change_percentage": 6.676,
+      "current_regular_price": 7.99,
+      "departments": [
+        "Health & Beauty"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-11:2026-08-13:gala:store:6:product:364059",
+      "from_date": "2026-08-11",
+      "is_anomaly": false,
+      "name": "U By Kotex Compact Tampon Super",
+      "previous_regular_price": 7.49,
+      "product_key": "gala:store:6:product:364059",
+      "retailer_product_id": "364059",
+      "sku": "0003600051581",
+      "source_id": "364059",
+      "sp_id": "607318",
+      "to_date": "2026-08-13"
+    }
+  ],
+  "comparison": {
+    "additions": 64,
+    "anomalies": 0,
+    "assortment_churn_percentage": 3.255,
+    "matched_products": 8292,
+    "missing_products": 141,
+    "price_decreases": 2,
+    "price_increases": 3,
+    "prior_overlap_percentage": 98.328,
+    "returns": 74,
+    "unchanged_or_uncomparable_prices": 8287
+  },
+  "from_date": "2026-08-11",
+  "price_decreases": 2,
+  "price_increases": 3,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-13",
+  "total_changes": 5
+}
