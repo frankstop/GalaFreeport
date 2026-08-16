@@ -1,0 +1,81 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 5.889,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "353957",
+      "category_paths": [
+        "Dairy > Cheese"
+      ],
+      "change": 0.5,
+      "change_percentage": 5.889,
+      "current_regular_price": 8.99,
+      "departments": [
+        "Dairy"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-15:2026-08-16:gala:store:6:product:286777",
+      "from_date": "2026-08-15",
+      "is_anomaly": false,
+      "name": "Quesos La Ricura Queso Seco Hard Cheese, 14 Oz",
+      "previous_regular_price": 8.49,
+      "product_key": "gala:store:6:product:286777",
+      "retailer_product_id": "286777",
+      "sku": "0076908700012",
+      "source_id": "286777",
+      "sp_id": "353957",
+      "to_date": "2026-08-16"
+    },
+    {
+      "absolute_change": 1.3,
+      "absolute_change_percentage": 35.23,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "344024",
+      "category_paths": [
+        "Vegetable > Root Vegetables"
+      ],
+      "change": 1.3,
+      "change_percentage": 35.23,
+      "current_regular_price": 4.99,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-15:2026-08-16:gala:store:6:product:373302",
+      "from_date": "2026-08-15",
+      "is_anomaly": false,
+      "name": "Fresh Okra",
+      "previous_regular_price": 3.69,
+      "product_key": "gala:store:6:product:373302",
+      "retailer_product_id": "373302",
+      "sku": "0020465500000",
+      "source_id": "373302",
+      "sp_id": "344024",
+      "to_date": "2026-08-16"
+    }
+  ],
+  "comparison": {
+    "additions": 19,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.548,
+    "matched_products": 8330,
+    "missing_products": 74,
+    "price_decreases": 0,
+    "price_increases": 2,
+    "prior_overlap_percentage": 99.119,
+    "returns": 38,
+    "unchanged_or_uncomparable_prices": 8328
+  },
+  "from_date": "2026-08-15",
+  "price_decreases": 0,
+  "price_increases": 2,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-16",
+  "total_changes": 2
+}
