@@ -23,9 +23,10 @@
     "2026-08-13",
     "2026-08-14",
     "2026-08-15",
-    "2026-08-16"
+    "2026-08-16",
+    "2026-08-17"
   ],
-  "comparison_days": 23,
+  "comparison_days": 24,
   "distinct_products": 473,
   "files": [
     {
@@ -257,6 +258,16 @@
       "price_increases": 2,
       "to_date": "2026-08-16",
       "total_changes": 2
+    },
+    {
+      "anomalies": 0,
+      "from_date": "2026-08-16",
+      "matched_products": 8321,
+      "path": "2026-08-17.json",
+      "price_decreases": 0,
+      "price_increases": 0,
+      "to_date": "2026-08-17",
+      "total_changes": 0
     }
   ],
   "filters": {
@@ -294,8 +305,8 @@
   "report": "price_changes",
   "schema_version": "1.0",
   "scope": "Gala Freeport–Merrick public online regular prices; not asserted as physical shelf prices",
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "status": "comparison_available",
-  "to_date": "2026-08-16",
+  "to_date": "2026-08-17",
   "total_changes": 526
 }
