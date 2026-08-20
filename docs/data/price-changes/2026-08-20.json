@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 9.119,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "335746",
+      "category_paths": [
+        "Vegetable > Avocado"
+      ],
+      "change": -0.3,
+      "change_percentage": -9.119,
+      "current_regular_price": 2.99,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-19:2026-08-20:gala:store:6:product:268566",
+      "from_date": "2026-08-19",
+      "is_anomaly": false,
+      "name": "Avocado Green",
+      "previous_regular_price": 3.29,
+      "product_key": "gala:store:6:product:268566",
+      "retailer_product_id": "268566",
+      "sku": "0000000004771",
+      "source_id": "268566",
+      "sp_id": "335746",
+      "to_date": "2026-08-20"
+    },
+    {
+      "absolute_change": 4.0,
+      "absolute_change_percentage": 23.543,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "336003",
+      "category_paths": [
+        "Household > Laundry > Detergent"
+      ],
+      "change": 4.0,
+      "change_percentage": 23.543,
+      "current_regular_price": 20.99,
+      "departments": [
+        "Household"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-19:2026-08-20:gala:store:6:product:268823",
+      "from_date": "2026-08-19",
+      "is_anomaly": false,
+      "name": "Foca Laundry Detergent,17.36 oz",
+      "previous_regular_price": 16.99,
+      "product_key": "gala:store:6:product:268823",
+      "retailer_product_id": "268823",
+      "sku": "0001200542756",
+      "source_id": "268823",
+      "sp_id": "336003",
+      "to_date": "2026-08-20"
+    },
+    {
+      "absolute_change": 0.7,
+      "absolute_change_percentage": 14.028,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "358525",
+      "category_paths": [
+        "Grocery > Beans & Grains > Beans & Lentils"
+      ],
+      "change": 0.7,
+      "change_percentage": 14.028,
+      "current_regular_price": 5.69,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-19:2026-08-20:gala:store:6:product:291345",
+      "from_date": "2026-08-19",
+      "is_anomaly": false,
+      "name": "Dinas Dark Nred Beans 14 Oz Bag",
+      "previous_regular_price": 4.99,
+      "product_key": "gala:store:6:product:291345",
+      "retailer_product_id": "291345",
+      "sku": "0004558310652",
+      "source_id": "291345",
+      "sp_id": "358525",
+      "to_date": "2026-08-20"
+    },
+    {
+      "absolute_change": 0.2,
+      "absolute_change_percentage": 15.504,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592387",
+      "category_paths": [
+        "Vegetable > Onions & Garlic"
+      ],
+      "change": 0.2,
+      "change_percentage": 15.504,
+      "current_regular_price": 1.49,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-19:2026-08-20:gala:store:6:product:355993",
+      "from_date": "2026-08-19",
+      "is_anomaly": false,
+      "name": "Fp Onions Spanish",
+      "previous_regular_price": 1.29,
+      "product_key": "gala:store:6:product:355993",
+      "retailer_product_id": "355993",
+      "sku": "0000000004667",
+      "source_id": "355993",
+      "sp_id": "592387",
+      "to_date": "2026-08-20"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 33.445,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592434",
+      "category_paths": [
+        "Fruit > Stone Fruit"
+      ],
+      "change": 1.0,
+      "change_percentage": 33.445,
+      "current_regular_price": 3.99,
+      "departments": [
+        "Fruit"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-19:2026-08-20:gala:store:6:product:356040",
+      "from_date": "2026-08-19",
+      "is_anomaly": false,
+      "name": "Fp Plums Black Large",
+      "previous_regular_price": 2.99,
+      "product_key": "gala:store:6:product:356040",
+      "retailer_product_id": "356040",
+      "sku": "0000000004040",
+      "source_id": "356040",
+      "sp_id": "592434",
+      "to_date": "2026-08-20"
+    }
+  ],
+  "comparison": {
+    "additions": 14,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.33,
+    "matched_products": 8312,
+    "missing_products": 51,
+    "price_decreases": 1,
+    "price_increases": 4,
+    "prior_overlap_percentage": 99.39,
+    "returns": 47,
+    "unchanged_or_uncomparable_prices": 8307
+  },
+  "from_date": "2026-08-19",
+  "price_decreases": 1,
+  "price_increases": 4,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-20",
+  "total_changes": 5
+}
