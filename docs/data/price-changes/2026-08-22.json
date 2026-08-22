@@ -1,0 +1,139 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.6,
+      "absolute_change_percentage": 35.503,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "335653",
+      "category_paths": [
+        "Vegetable > Squash & Zucchini"
+      ],
+      "change": 0.6,
+      "change_percentage": 35.503,
+      "current_regular_price": 2.29,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-21:2026-08-22:gala:store:6:product:268473",
+      "from_date": "2026-08-21",
+      "is_anomaly": false,
+      "name": "Squash Zucchini",
+      "previous_regular_price": 1.69,
+      "product_key": "gala:store:6:product:268473",
+      "retailer_product_id": "268473",
+      "sku": "0000000004067",
+      "source_id": "268473",
+      "sp_id": "335653",
+      "to_date": "2026-08-22"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 6.254,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "359639",
+      "category_paths": [
+        "Grocery > Baking Needs > Oil & Shortening"
+      ],
+      "change": -1.0,
+      "change_percentage": -6.254,
+      "current_regular_price": 14.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-21:2026-08-22:gala:store:6:product:292459",
+      "from_date": "2026-08-21",
+      "is_anomaly": false,
+      "name": "Wesson 100% Natural Canola Oil , 128 oz",
+      "previous_regular_price": 15.99,
+      "product_key": "gala:store:6:product:292459",
+      "retailer_product_id": "292459",
+      "sku": "0002700069061",
+      "source_id": "292459",
+      "sp_id": "359639",
+      "to_date": "2026-08-22"
+    },
+    {
+      "absolute_change": 0.4,
+      "absolute_change_percentage": 8.18,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "361551",
+      "category_paths": [
+        "Frozen > Ice Cream & Sorbet > Sorbet"
+      ],
+      "change": 0.4,
+      "change_percentage": 8.18,
+      "current_regular_price": 5.29,
+      "departments": [
+        "Frozen"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-21:2026-08-22:gala:store:6:product:294371",
+      "from_date": "2026-08-21",
+      "is_anomaly": false,
+      "name": "Luigi's Blue Raspberry and Watermelon Italian Ice, 6 Ct",
+      "previous_regular_price": 4.89,
+      "product_key": "gala:store:6:product:294371",
+      "retailer_product_id": "294371",
+      "sku": "0007332104406",
+      "source_id": "294371",
+      "sp_id": "361551",
+      "to_date": "2026-08-22"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 12.516,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "597525",
+      "category_paths": [
+        "Fruit > Citrus"
+      ],
+      "change": -1.0,
+      "change_percentage": -12.516,
+      "current_regular_price": 6.99,
+      "departments": [
+        "Fruit"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-21:2026-08-22:gala:store:6:product:332771",
+      "from_date": "2026-08-21",
+      "is_anomaly": false,
+      "name": "Sunrays Mandarins, 3 lb Bag",
+      "previous_regular_price": 7.99,
+      "product_key": "gala:store:6:product:332771",
+      "retailer_product_id": "332771",
+      "sku": "0085716900587",
+      "source_id": "332771",
+      "sp_id": "597525",
+      "to_date": "2026-08-22"
+    }
+  ],
+  "comparison": {
+    "additions": 18,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.757,
+    "matched_products": 8277,
+    "missing_products": 79,
+    "price_decreases": 2,
+    "price_increases": 2,
+    "prior_overlap_percentage": 99.055,
+    "returns": 51,
+    "unchanged_or_uncomparable_prices": 8273
+  },
+  "from_date": "2026-08-21",
+  "price_decreases": 2,
+  "price_increases": 2,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-22",
+  "total_changes": 4
+}
