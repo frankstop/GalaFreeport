@@ -1,0 +1,110 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 15.075,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "360077",
+      "category_paths": [
+        "Vegetable > Cabbage"
+      ],
+      "change": 0.3,
+      "change_percentage": 15.075,
+      "current_regular_price": 2.29,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-22:2026-08-23:gala:store:6:product:292897",
+      "from_date": "2026-08-22",
+      "is_anomaly": false,
+      "name": "Chicory",
+      "previous_regular_price": 1.99,
+      "product_key": "gala:store:6:product:292897",
+      "retailer_product_id": "292897",
+      "sku": "0000000004604",
+      "source_id": "292897",
+      "sp_id": "360077",
+      "to_date": "2026-08-23"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 25.063,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "680156",
+      "category_paths": [
+        "Grocery > Dried Fruit & Nuts"
+      ],
+      "change": -1.0,
+      "change_percentage": -25.063,
+      "current_regular_price": 2.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-22:2026-08-23:gala:store:6:product:349251",
+      "from_date": "2026-08-22",
+      "is_anomaly": false,
+      "name": "Mariani Cranberries Dried 5 Oz",
+      "previous_regular_price": 3.99,
+      "product_key": "gala:store:6:product:349251",
+      "retailer_product_id": "349251",
+      "sku": "0007102231552",
+      "source_id": "349251",
+      "sp_id": "680156",
+      "to_date": "2026-08-23"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 30.303,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592238",
+      "category_paths": [
+        "Vegetable > Potato"
+      ],
+      "change": 0.3,
+      "change_percentage": 30.303,
+      "current_regular_price": 1.29,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-22:2026-08-23:gala:store:6:product:355844",
+      "from_date": "2026-08-22",
+      "is_anomaly": false,
+      "name": "Gg Potatoes Idaho",
+      "previous_regular_price": 0.99,
+      "product_key": "gala:store:6:product:355844",
+      "retailer_product_id": "355844",
+      "sku": "0000000004072",
+      "source_id": "355844",
+      "sp_id": "592238",
+      "to_date": "2026-08-23"
+    }
+  ],
+  "comparison": {
+    "additions": 19,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.651,
+    "matched_products": 8281,
+    "missing_products": 65,
+    "price_decreases": 1,
+    "price_increases": 2,
+    "prior_overlap_percentage": 99.221,
+    "returns": 55,
+    "unchanged_or_uncomparable_prices": 8278
+  },
+  "from_date": "2026-08-22",
+  "price_decreases": 1,
+  "price_increases": 2,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-23",
+  "total_changes": 3
+}
