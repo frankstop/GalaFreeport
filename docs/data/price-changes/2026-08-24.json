@@ -1,0 +1,81 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.8,
+      "absolute_change_percentage": 9.889,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "356851",
+      "category_paths": [
+        "Grocery > Spices"
+      ],
+      "change": -0.8,
+      "change_percentage": -9.889,
+      "current_regular_price": 7.29,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-23:2026-08-24:gala:store:6:product:289671",
+      "from_date": "2026-08-23",
+      "is_anomaly": false,
+      "name": "Malher Pollo 32oz.",
+      "previous_regular_price": 8.09,
+      "product_key": "gala:store:6:product:289671",
+      "retailer_product_id": "289671",
+      "sku": "0008967402044",
+      "source_id": "289671",
+      "sp_id": "356851",
+      "to_date": "2026-08-24"
+    },
+    {
+      "absolute_change": 2.0,
+      "absolute_change_percentage": 7.145,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "358717",
+      "category_paths": [
+        "Grocery > Beans & Grains > Rice"
+      ],
+      "change": -2.0,
+      "change_percentage": -7.145,
+      "current_regular_price": 25.99,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-23:2026-08-24:gala:store:6:product:291537",
+      "from_date": "2026-08-23",
+      "is_anomaly": false,
+      "name": "Madame Gougousse Jasmine Rice, 20 Lbs",
+      "previous_regular_price": 27.99,
+      "product_key": "gala:store:6:product:291537",
+      "retailer_product_id": "291537",
+      "sku": "0004228700001",
+      "source_id": "291537",
+      "sp_id": "358717",
+      "to_date": "2026-08-24"
+    }
+  ],
+  "comparison": {
+    "additions": 16,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.664,
+    "matched_products": 8275,
+    "missing_products": 80,
+    "price_decreases": 2,
+    "price_increases": 0,
+    "prior_overlap_percentage": 99.042,
+    "returns": 44,
+    "unchanged_or_uncomparable_prices": 8273
+  },
+  "from_date": "2026-08-23",
+  "price_decreases": 2,
+  "price_increases": 0,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-24",
+  "total_changes": 2
+}
