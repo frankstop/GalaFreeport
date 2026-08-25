@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.2,
+      "absolute_change_percentage": 5.731,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "349833",
+      "category_paths": [
+        "Grocery > Beans & Grains > Beans & Lentils"
+      ],
+      "change": 0.2,
+      "change_percentage": 5.731,
+      "current_regular_price": 3.69,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-24:2026-08-25:gala:store:6:product:282653",
+      "from_date": "2026-08-24",
+      "is_anomaly": false,
+      "name": "Mi Canton Frijoles Rojos, 20 Oz",
+      "previous_regular_price": 3.49,
+      "product_key": "gala:store:6:product:282653",
+      "retailer_product_id": "282653",
+      "sku": "0089023700091",
+      "source_id": "282653",
+      "sp_id": "349833",
+      "to_date": "2026-08-25"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 7.704,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "351707",
+      "category_paths": [
+        "Deli > Deli Meat"
+      ],
+      "change": 0.5,
+      "change_percentage": 7.704,
+      "current_regular_price": 6.99,
+      "departments": [
+        "Deli"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-24:2026-08-25:gala:store:6:product:284527",
+      "from_date": "2026-08-24",
+      "is_anomaly": false,
+      "name": "Goya Chorizos, 7 Oz",
+      "previous_regular_price": 6.49,
+      "product_key": "gala:store:6:product:284527",
+      "retailer_product_id": "284527",
+      "sku": "0004133103314",
+      "source_id": "284527",
+      "sp_id": "351707",
+      "to_date": "2026-08-25"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 30.303,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "356438",
+      "category_paths": [
+        "Vegetable > Potato"
+      ],
+      "change": 0.3,
+      "change_percentage": 30.303,
+      "current_regular_price": 1.29,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-24:2026-08-25:gala:store:6:product:289258",
+      "from_date": "2026-08-24",
+      "is_anomaly": false,
+      "name": "Sweet Potato Jumbo",
+      "previous_regular_price": 0.99,
+      "product_key": "gala:store:6:product:289258",
+      "retailer_product_id": "289258",
+      "sku": "0000000004817",
+      "source_id": "289258",
+      "sp_id": "356438",
+      "to_date": "2026-08-25"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 25.126,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592365",
+      "category_paths": [
+        "Vegetable > Beans & Peas"
+      ],
+      "change": 0.5,
+      "change_percentage": 25.126,
+      "current_regular_price": 2.49,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-24:2026-08-25:gala:store:6:product:355971",
+      "from_date": "2026-08-24",
+      "is_anomaly": false,
+      "name": "Fresh Produce Green Beans",
+      "previous_regular_price": 1.99,
+      "product_key": "gala:store:6:product:355971",
+      "retailer_product_id": "355971",
+      "sku": "0000000004530",
+      "source_id": "355971",
+      "sp_id": "592365",
+      "to_date": "2026-08-25"
+    },
+    {
+      "absolute_change": 1.0,
+      "absolute_change_percentage": 16.694,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592493",
+      "category_paths": [
+        "Fruit > Tropical & Specialty"
+      ],
+      "change": 1.0,
+      "change_percentage": 16.694,
+      "current_regular_price": 6.99,
+      "departments": [
+        "Fruit"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-24:2026-08-25:gala:store:6:product:356099",
+      "from_date": "2026-08-24",
+      "is_anomaly": false,
+      "name": "Fresh Produce Pineapple",
+      "previous_regular_price": 5.99,
+      "product_key": "gala:store:6:product:356099",
+      "retailer_product_id": "356099",
+      "sku": "0000000004430",
+      "source_id": "356099",
+      "sp_id": "592493",
+      "to_date": "2026-08-25"
+    }
+  ],
+  "comparison": {
+    "additions": 17,
+    "anomalies": 0,
+    "assortment_churn_percentage": 2.08,
+    "matched_products": 8238,
+    "missing_products": 97,
+    "price_decreases": 0,
+    "price_increases": 5,
+    "prior_overlap_percentage": 98.836,
+    "returns": 61,
+    "unchanged_or_uncomparable_prices": 8233
+  },
+  "from_date": "2026-08-24",
+  "price_decreases": 0,
+  "price_increases": 5,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-25",
+  "total_changes": 5
+}
