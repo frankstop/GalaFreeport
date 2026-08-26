@@ -1,0 +1,81 @@
+{
+  "changes": [
+    {
+      "absolute_change": 2.0,
+      "absolute_change_percentage": 20.02,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "563067",
+      "category_paths": [
+        "Deli > Cold Cuts"
+      ],
+      "change": 2.0,
+      "change_percentage": 20.02,
+      "current_regular_price": 11.99,
+      "departments": [
+        "Deli"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-25:2026-08-26:gala:store:6:product:306372",
+      "from_date": "2026-08-25",
+      "is_anomaly": false,
+      "name": "Tyson Grilled & Ready Chicken Breast Strips, 22 Oz",
+      "previous_regular_price": 9.99,
+      "product_key": "gala:store:6:product:306372",
+      "retailer_product_id": "306372",
+      "sku": "0002370001625",
+      "source_id": "306372",
+      "sp_id": "563067",
+      "to_date": "2026-08-26"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 11.152,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592462",
+      "category_paths": [
+        "Vegetable > Cucumber"
+      ],
+      "change": 0.3,
+      "change_percentage": 11.152,
+      "current_regular_price": 2.99,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-25:2026-08-26:gala:store:6:product:356068",
+      "from_date": "2026-08-25",
+      "is_anomaly": false,
+      "name": "Black Chayotes Each - Costa Rica",
+      "previous_regular_price": 2.69,
+      "product_key": "gala:store:6:product:356068",
+      "retailer_product_id": "356068",
+      "sku": "0000000000827",
+      "source_id": "356068",
+      "sp_id": "592462",
+      "to_date": "2026-08-26"
+    }
+  ],
+  "comparison": {
+    "additions": 24,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.86,
+    "matched_products": 8233,
+    "missing_products": 83,
+    "price_decreases": 0,
+    "price_increases": 2,
+    "prior_overlap_percentage": 99.002,
+    "returns": 49,
+    "unchanged_or_uncomparable_prices": 8231
+  },
+  "from_date": "2026-08-25",
+  "price_decreases": 0,
+  "price_increases": 2,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-26",
+  "total_changes": 2
+}
