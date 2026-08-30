@@ -19,7 +19,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 3.29,
       "name": "Heinz Yellow Mustard, 14 Oz",
@@ -598,9 +598,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 3.29,
+            "display_price": "$3.29 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.29
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:268871",
       "retailer_product_id": "268871",
       "sku": "0001300000212",
@@ -630,7 +642,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 1,
       "latest_regular_price": 8.39,
       "name": "Heinz Ketchup, 38 Oz",
@@ -1416,9 +1428,30 @@
               "promotion_id": "sale:a399ea7c992f49d0"
             }
           ]
+        },
+        {
+          "catalog": {
+            "current_price": 5.99,
+            "display_price": "$5.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": "$8.39",
+            "promotion_ids": [
+              "sale:a399ea7c992f49d0"
+            ],
+            "regular_price": 8.39
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 5.99,
+              "description": "Sale $5.99 (regular $8.39)",
+              "promotion_id": "sale:a399ea7c992f49d0"
+            }
+          ]
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:268875",
       "retailer_product_id": "268875",
       "sku": "0001300000466",
@@ -1448,7 +1481,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 1,
       "latest_regular_price": 2.99,
       "name": "Betty Crocker Rich & Creamy Milk Chocolate Frosting, 16 Oz",
@@ -1959,9 +1992,30 @@
               "promotion_id": "multi_buy:81a97d62a5592b94"
             }
           ]
+        },
+        {
+          "catalog": {
+            "current_price": 4.0,
+            "display_price": "$4.00",
+            "is_out_of_stock": null,
+            "original_display_price": "$2.99",
+            "promotion_ids": [
+              "multi_buy:81a97d62a5592b94"
+            ],
+            "regular_price": 2.99
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit source quantity 2 for total $4",
+              "derived_effective_unit_price": 2.0,
+              "description": "2 for $4",
+              "promotion_id": "multi_buy:81a97d62a5592b94"
+            }
+          ]
         }
       ],
-      "observed_days": 35,
+      "observed_days": 36,
       "product_key": "gala:store:6:product:269262",
       "retailer_product_id": "269262",
       "sku": "0001600045900",
@@ -1991,7 +2045,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 4.99,
       "name": "Tropical Quesito Casero Colombian Style Cheese, 10 Oz",
@@ -2444,9 +2498,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:270409",
       "retailer_product_id": "270409",
       "sku": "0002756802302",
@@ -2476,7 +2542,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.99,
       "name": "Premio Hot Italian Sausage, 16 Oz",
@@ -2992,9 +3058,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:270525",
       "retailer_product_id": "270525",
       "sku": "0002836412032",
@@ -3024,7 +3102,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 8.79,
       "name": "Dannon Activia Probiotic Blended Lowfat Yogurt Banana & Strawberry , 4 Oz",
@@ -3477,9 +3555,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 8.79,
+            "display_price": "$8.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 8.79
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:271357",
       "retailer_product_id": "271357",
       "sku": "0003663202853",
@@ -3509,7 +3599,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 3.99,
       "name": "Goya Pico De Gallo Mild Salsa, 17.6 Oz",
@@ -3724,9 +3814,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 3.99,
+            "display_price": "$3.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 3,
+      "observed_days": 4,
       "product_key": "gala:store:6:product:272165",
       "retailer_product_id": "272165",
       "sku": "0004133102891",
@@ -4188,6 +4290,11 @@
           "catalog": null,
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": null,
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
       "observed_days": 34,
@@ -4220,7 +4327,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.99,
       "name": "Nestle Vanilla Crunch Bars",
@@ -4673,9 +4780,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:274933",
       "retailer_product_id": "274933",
       "sku": "0007255411089",
@@ -4705,7 +4824,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 4.99,
       "name": "Stella D'oro Cky Almond Delgh",
@@ -5158,9 +5277,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 4.99,
+            "display_price": "$4.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:275271",
       "retailer_product_id": "275271",
       "sku": "0007351000256",
@@ -5190,7 +5321,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 3.49,
       "name": "La Flor Ground Comino, 2 Oz",
@@ -5643,9 +5774,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 3.49,
+            "display_price": "$3.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.49
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:275848",
       "retailer_product_id": "275848",
       "sku": "0007763601450",
@@ -5675,7 +5818,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 13.49,
       "name": "Bumble Bee Red Salmon, 14.75 Oz",
@@ -6058,9 +6201,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 13.49,
+            "display_price": "$13.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 13.49
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 27,
+      "observed_days": 28,
       "product_key": "gala:store:6:product:276177",
       "retailer_product_id": "276177",
       "sku": "0008660000064",
@@ -6090,7 +6245,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 8.99,
       "name": "Bonne Maman Preserves Apricot, 13 Oz",
@@ -6382,9 +6537,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 8.99,
+            "display_price": "$8.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 8.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 14,
+      "observed_days": 15,
       "product_key": "gala:store:6:product:276279",
       "retailer_product_id": "276279",
       "sku": "0008870201561",
@@ -6414,7 +6581,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 1.89,
       "name": "Louisiana Brand The Perfect Hot Sauce, 6 Oz",
@@ -6867,9 +7034,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 1.89,
+            "display_price": "$1.89",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.89
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:276463",
       "retailer_product_id": "276463",
       "sku": "0019029800020",
@@ -7317,6 +7496,11 @@
           "catalog": null,
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": null,
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
       "observed_days": 32,
@@ -7349,7 +7533,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 1.99,
       "name": "Swan Hydrogen Peroxide, 16 FL Oz",
@@ -7802,9 +7986,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 1.99,
+            "display_price": "$1.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:280269",
       "retailer_product_id": "280269",
       "sku": "0030869470610",
@@ -7834,7 +8030,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 1,
       "latest_regular_price": 11.99,
       "name": "Fanta Orange, 12 Pk",
@@ -8440,9 +8636,30 @@
               "promotion_id": "multi_buy:2376104d42c8fe37"
             }
           ]
+        },
+        {
+          "catalog": {
+            "current_price": 15.0,
+            "display_price": "$15.00",
+            "is_out_of_stock": null,
+            "original_display_price": "$11.99",
+            "promotion_ids": [
+              "multi_buy:2376104d42c8fe37"
+            ],
+            "regular_price": 11.99
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit source quantity 2 for total $15",
+              "derived_effective_unit_price": 7.5,
+              "description": "2 for $15",
+              "promotion_id": "multi_buy:2376104d42c8fe37"
+            }
+          ]
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:280444",
       "retailer_product_id": "280444",
       "sku": "0004900003073",
@@ -8472,7 +8689,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": true,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 2.69,
       "name": "California Sweet Batata",
@@ -8925,9 +9142,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 2.69,
+            "display_price": "$2.69 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.69
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:281834",
       "retailer_product_id": "281834",
       "sku": "0000000004820",
@@ -8957,7 +9186,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 1,
       "latest_regular_price": 3.59,
       "name": "Birds Eye Baby Sweet Peas, 13 Oz",
@@ -9416,9 +9645,30 @@
               "promotion_id": "multi_buy:5d88f77e6ad2f4dc"
             }
           ]
+        },
+        {
+          "catalog": {
+            "current_price": 6.0,
+            "display_price": "$6.00",
+            "is_out_of_stock": null,
+            "original_display_price": "$3.59",
+            "promotion_ids": [
+              "multi_buy:5d88f77e6ad2f4dc"
+            ],
+            "regular_price": 3.59
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit source quantity 2 for total $6",
+              "derived_effective_unit_price": 3.0,
+              "description": "2 for $6",
+              "promotion_id": "multi_buy:5d88f77e6ad2f4dc"
+            }
+          ]
         }
       ],
-      "observed_days": 34,
+      "observed_days": 35,
       "product_key": "gala:store:6:product:281965",
       "retailer_product_id": "281965",
       "sku": "0001450002253",
@@ -9448,7 +9698,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 1.99,
       "name": "Crush Pineapple Soda, 20 Oz",
@@ -9901,9 +10151,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 1.99,
+            "display_price": "$1.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:283188",
       "retailer_product_id": "283188",
       "sku": "0007800001414",
@@ -9933,7 +10195,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.99,
       "name": "Boar's Head Sharp Wisconsin Cheddar Cheese, 8 Oz",
@@ -10288,9 +10550,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 23,
+      "observed_days": 24,
       "product_key": "gala:store:6:product:284355",
       "retailer_product_id": "284355",
       "sku": "0004242105963",
@@ -10626,6 +10900,11 @@
           "catalog": null,
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": null,
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
       "observed_days": 16,
@@ -10658,7 +10937,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.99,
       "name": "Tropical Queso De Freir Amarillo, 16 Oz",
@@ -11111,9 +11390,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:285326",
       "retailer_product_id": "285326",
       "sku": "0002756801910",
@@ -11143,7 +11434,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 17.99,
       "name": "Taster's Ch Coffee House Blnd Decaf, 7 Oz",
@@ -11596,9 +11887,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 17.99,
+            "display_price": "$17.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 17.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:285350",
       "retailer_product_id": "285350",
       "sku": "0002800031385",
@@ -11628,7 +11931,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 8.49,
       "name": "Alexia All Natural House Cut Fries With Sea Salt, 28 Oz",
@@ -12081,9 +12384,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 8.49,
+            "display_price": "$8.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 8.49
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:286026",
       "retailer_product_id": "286026",
       "sku": "0083418300099",
@@ -12113,7 +12428,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.99,
       "name": "Currant Affair Black Currant Cranberry Juice, 53 Oz",
@@ -12566,9 +12881,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.99,
+            "display_price": "$6.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:286105",
       "retailer_product_id": "286105",
       "sku": "0087039700160",
@@ -12598,7 +12925,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 1,
       "latest_regular_price": 4.29,
       "name": "AriZona Diet Lemon Iced Tea, 1 Gal",
@@ -13384,9 +13711,30 @@
               "promotion_id": "sale:237e75fefbb5ebaf"
             }
           ]
+        },
+        {
+          "catalog": {
+            "current_price": 3.49,
+            "display_price": "$3.49",
+            "is_out_of_stock": null,
+            "original_display_price": "$4.29",
+            "promotion_ids": [
+              "sale:237e75fefbb5ebaf"
+            ],
+            "regular_price": 4.29
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 3.49,
+              "description": "Sale $3.49 (regular $4.29)",
+              "promotion_id": "sale:237e75fefbb5ebaf"
+            }
+          ]
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:286535",
       "retailer_product_id": "286535",
       "sku": "0061300872184",
@@ -13416,7 +13764,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 4.79,
       "name": "Apple & Eve Organics Apple 100% Juice 64 Oz",
@@ -13923,9 +14271,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 4.79,
+            "display_price": "$4.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.79
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:286902",
       "retailer_product_id": "286902",
       "sku": "0007630175249",
@@ -13955,7 +14315,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 2.29,
       "name": "Coca Cola Coke, Classic, 1.25 Ltr",
@@ -14408,9 +14768,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 2.29,
+            "display_price": "$2.29",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.29
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:287833",
       "retailer_product_id": "287833",
       "sku": "0004900005537",
@@ -14440,7 +14812,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": true,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 8.99,
       "name": "Boar's Head Mozzarella",
@@ -14965,9 +15337,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 8.99,
+            "display_price": "$8.99 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 8.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:290132",
       "retailer_product_id": "290132",
       "sku": "0025618800000",
@@ -14997,7 +15381,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 2.29,
       "name": "Jell-O Gelatin Dessert Lime, 3 Oz",
@@ -15450,9 +15834,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 2.29,
+            "display_price": "$2.29",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.29
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:291582",
       "retailer_product_id": "291582",
       "sku": "0004300020006",
@@ -15482,7 +15878,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 5.79,
       "name": "Velveeta Macshell Dinner 12oz.",
@@ -15935,9 +16331,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 5.79,
+            "display_price": "$5.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.79
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:292568",
       "retailer_product_id": "292568",
       "sku": "0002100065893",
@@ -15967,7 +16375,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 4.49,
       "name": "Smucker's Sundae Syrup Chocolate, 20 Oz",
@@ -16420,9 +16828,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 4.49,
+            "display_price": "$4.49",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 4.49
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:294857",
       "retailer_product_id": "294857",
       "sku": "0005150002513",
@@ -16452,7 +16872,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 1,
       "latest_regular_price": 11.99,
       "name": "Maxwell House Breakfast Blend, 11 Oz",
@@ -16827,9 +17247,30 @@
               "promotion_id": "sale:430b7fbb1f2b16f6"
             }
           ]
+        },
+        {
+          "catalog": {
+            "current_price": 8.99,
+            "display_price": "$8.99",
+            "is_out_of_stock": null,
+            "original_display_price": "$11.99",
+            "promotion_ids": [
+              "sale:430b7fbb1f2b16f6"
+            ],
+            "regular_price": 11.99
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 8.99,
+              "description": "Sale $8.99 (regular $11.99)",
+              "promotion_id": "sale:430b7fbb1f2b16f6"
+            }
+          ]
         }
       ],
-      "observed_days": 22,
+      "observed_days": 23,
       "product_key": "gala:store:6:product:295164",
       "retailer_product_id": "295164",
       "sku": "0004300002925",
@@ -16856,11 +17297,11 @@
       "has_price_change": false,
       "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0239615_aunt-nellies-aunt-nellies-harvard-beets_300.jpeg",
       "is_active": true,
-      "is_current": false,
+      "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-18",
-      "latest_promotion_count": 0,
+      "last_seen": "2026-08-30",
+      "latest_promotion_count": 1,
       "latest_regular_price": 3.69,
       "name": "Aunt Nellie's Harvard Beets, 15.5 Oz",
       "observations": [
@@ -17357,9 +17798,30 @@
           "catalog": null,
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 2.49,
+            "display_price": "$2.49",
+            "is_out_of_stock": null,
+            "original_display_price": "$3.69",
+            "promotion_ids": [
+              "sale:c8f2635ad18bd673"
+            ],
+            "regular_price": 3.69
+          },
+          "date": "2026-08-30",
+          "promotions": [
+            {
+              "derivation_basis": "explicit P_v sale price",
+              "derived_effective_unit_price": 2.49,
+              "description": "Sale $2.49 (regular $3.69)",
+              "promotion_id": "sale:c8f2635ad18bd673"
+            }
+          ]
         }
       ],
-      "observed_days": 19,
+      "observed_days": 20,
       "product_key": "gala:store:6:product:295246",
       "retailer_product_id": "295246",
       "sku": "0004430005462",
@@ -17386,7 +17848,7 @@
       "has_price_change": false,
       "image_url": "https://galasupermarkets.com/api/content/images/thumbs/0244155_progresso-prog-beef-barley-soup_300.jpeg",
       "is_active": true,
-      "is_current": true,
+      "is_current": false,
       "is_visible": true,
       "is_weighable": false,
       "last_seen": "2026-08-29",
@@ -17793,6 +18255,11 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": null,
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
       "observed_days": 30,
@@ -17825,7 +18292,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 8.79,
       "name": "Eggo Waffles Chocolate Chip Family Pack",
@@ -18341,9 +18808,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 8.79,
+            "display_price": "$8.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 8.79
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:295820",
       "retailer_product_id": "295820",
       "sku": "0003800033364",
@@ -18373,7 +18852,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 5.29,
       "name": "Welch's Sparkling Non-Alcoholic White Grape Juice Cocktail, 25.4 Oz",
@@ -18756,9 +19235,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 5.29,
+            "display_price": "$5.29",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.29
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 27,
+      "observed_days": 28,
       "product_key": "gala:store:6:product:300868",
       "retailer_product_id": "300868",
       "sku": "0004180071500",
@@ -18788,7 +19279,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 8.99,
       "name": "King Arthur Unbleached All Purpose Flour, 80 oz",
@@ -19241,9 +19732,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 8.99,
+            "display_price": "$8.99",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 8.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:307261",
       "retailer_product_id": "307261",
       "sku": "0007101201050",
@@ -19273,7 +19776,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 2.39,
       "name": "Jumbo White Foam Eggs 12 Pk",
@@ -19712,9 +20215,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 2.39,
+            "display_price": "$2.39",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.39
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 35,
+      "observed_days": 36,
       "product_key": "gala:store:6:product:310510",
       "retailer_product_id": "310510",
       "sku": "0080487945733",
@@ -20101,6 +20616,11 @@
           "catalog": null,
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": null,
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
       "observed_days": 22,
@@ -20133,7 +20653,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 2.99,
       "name": "Foster's Premium Ale Lager Beer, 24.5 Oz",
@@ -20586,9 +21106,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 2.99,
+            "display_price": "$2.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 2.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:317244",
       "retailer_product_id": "317244",
       "sku": "0007089718331",
@@ -20618,7 +21150,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 5.79,
       "name": "Yogi Tea Breathe Deep, 16 Ct",
@@ -20889,9 +21421,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 5.79,
+            "display_price": "$5.79",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 5.79
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 11,
+      "observed_days": 12,
       "product_key": "gala:store:6:product:322553",
       "retailer_product_id": "322553",
       "sku": "0007695045004",
@@ -20921,7 +21465,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 14.97,
       "name": "Fiji Natural Artesian Water - 6 Pk, 33.8 Oz",
@@ -21213,9 +21757,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 14.97,
+            "display_price": "$14.97",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 14.97
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 14,
+      "observed_days": 15,
       "product_key": "gala:store:6:product:322790",
       "retailer_product_id": "322790",
       "sku": "0063256500010",
@@ -21245,7 +21801,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 7.69,
       "name": "My Mo Mochi Ice Cream Ripe Strawberry, 9.1 Oz",
@@ -21698,9 +22254,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 7.69,
+            "display_price": "$7.69",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 7.69
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:343369",
       "retailer_product_id": "343369",
       "sku": "0007093499616",
@@ -21730,7 +22298,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.19,
       "name": "Ocean Spray 100% Cranb/Rasp Juice 64 Fl",
@@ -22169,9 +22737,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.19,
+            "display_price": "$6.19",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.19
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 35,
+      "observed_days": 36,
       "product_key": "gala:store:6:product:361457",
       "retailer_product_id": "361457",
       "sku": "0003120003471",
@@ -22201,7 +22781,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 6.19,
       "name": "100% Juice Cranberry Grape",
@@ -22654,9 +23234,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 6.19,
+            "display_price": "$6.19",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 6.19
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:361825",
       "retailer_product_id": "361825",
       "sku": "0003120003466",
@@ -22686,7 +23278,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": true,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 3.99,
       "name": "Pork Stew Boneless",
@@ -23139,9 +23731,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 3.99,
+            "display_price": "$3.99 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:373229",
       "retailer_product_id": "373229",
       "sku": "0020349500000",
@@ -23171,7 +23775,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": true,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 3.19,
       "name": "Auerback Shallots",
@@ -23624,9 +24228,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 3.19,
+            "display_price": "$3.19 / lb",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 3.19
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:373303",
       "retailer_product_id": "373303",
       "sku": "0020466200000",
@@ -23656,7 +24272,7 @@
       "is_current": true,
       "is_visible": true,
       "is_weighable": false,
-      "last_seen": "2026-08-29",
+      "last_seen": "2026-08-30",
       "latest_promotion_count": 0,
       "latest_regular_price": 1.99,
       "name": "Peppers Jalapeno",
@@ -24109,9 +24725,21 @@
           },
           "date": "2026-08-29",
           "promotions": []
+        },
+        {
+          "catalog": {
+            "current_price": 1.99,
+            "display_price": "$1.99 / each",
+            "is_out_of_stock": null,
+            "original_display_price": null,
+            "promotion_ids": [],
+            "regular_price": 1.99
+          },
+          "date": "2026-08-30",
+          "promotions": []
         }
       ],
-      "observed_days": 37,
+      "observed_days": 38,
       "product_key": "gala:store:6:product:373304",
       "retailer_product_id": "373304",
       "sku": "0020469300000",

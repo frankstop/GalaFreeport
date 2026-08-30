@@ -36,10 +36,11 @@
     "2026-08-26",
     "2026-08-27",
     "2026-08-28",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-08-30"
   ],
-  "comparison_days": 36,
-  "distinct_products": 568,
+  "comparison_days": 37,
+  "distinct_products": 571,
   "files": [
     {
       "anomalies": 0,
@@ -400,11 +401,22 @@
       "price_increases": 2,
       "to_date": "2026-08-29",
       "total_changes": 8
+    },
+    {
+      "anomalies": 0,
+      "from_date": "2026-08-29",
+      "matched_products": 8187,
+      "path": "2026-08-30.json",
+      "price_decreases": 1,
+      "price_increases": 3,
+      "to_date": "2026-08-30",
+      "total_changes": 4
     }
   ],
   "filters": {
     "brands": [],
     "departments": [
+      "Baby Care",
       "Bakery",
       "Dairy",
       "Deli",
@@ -432,13 +444,13 @@
     "completeness": "daily shard files contain every comparable regular-price change without a display cap",
     "missingness": "an item must have finite positive regular prices on both dates; gaps are not changes"
   },
-  "price_decreases": 319,
-  "price_increases": 334,
+  "price_decreases": 320,
+  "price_increases": 337,
   "report": "price_changes",
   "schema_version": "1.0",
   "scope": "Gala Freeport–Merrick public online regular prices; not asserted as physical shelf prices",
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "status": "comparison_available",
-  "to_date": "2026-08-29",
-  "total_changes": 653
+  "to_date": "2026-08-30",
+  "total_changes": 657
 }

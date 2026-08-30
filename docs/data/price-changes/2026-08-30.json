@@ -1,0 +1,139 @@
+{
+  "changes": [
+    {
+      "absolute_change": 0.2,
+      "absolute_change_percentage": 13.423,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "358980",
+      "category_paths": [
+        "Grocery > Dressing & Sauces > Sauce"
+      ],
+      "change": -0.2,
+      "change_percentage": -13.423,
+      "current_regular_price": 1.29,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-08-29:2026-08-30:gala:store:6:product:291800",
+      "from_date": "2026-08-29",
+      "is_anomaly": false,
+      "name": "Luigi Vitelli Tomato Paste",
+      "previous_regular_price": 1.49,
+      "product_key": "gala:store:6:product:291800",
+      "retailer_product_id": "291800",
+      "sku": "0004148600406",
+      "source_id": "291800",
+      "sp_id": "358980",
+      "to_date": "2026-08-30"
+    },
+    {
+      "absolute_change": 0.5,
+      "absolute_change_percentage": 7.704,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "363196",
+      "category_paths": [
+        "Baby Care > Baby Food"
+      ],
+      "change": 0.5,
+      "change_percentage": 7.704,
+      "current_regular_price": 6.99,
+      "departments": [
+        "Baby Care"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-29:2026-08-30:gala:store:6:product:296016",
+      "from_date": "2026-08-29",
+      "is_anomaly": false,
+      "name": "Earth's Best Whole Grain Oatmeal Cereal, 8 Oz",
+      "previous_regular_price": 6.49,
+      "product_key": "gala:store:6:product:296016",
+      "retailer_product_id": "296016",
+      "sku": "0002392390017",
+      "source_id": "296016",
+      "sp_id": "363196",
+      "to_date": "2026-08-30"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 15.075,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "363779",
+      "category_paths": [
+        "Vegetable > Lettuce"
+      ],
+      "change": 0.3,
+      "change_percentage": 15.075,
+      "current_regular_price": 2.29,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-29:2026-08-30:gala:store:6:product:296599",
+      "from_date": "2026-08-29",
+      "is_anomaly": false,
+      "name": "Seasons Iceberg Lettuce",
+      "previous_regular_price": 1.99,
+      "product_key": "gala:store:6:product:296599",
+      "retailer_product_id": "296599",
+      "sku": "0000065101100",
+      "source_id": "296599",
+      "sp_id": "363779",
+      "to_date": "2026-08-30"
+    },
+    {
+      "absolute_change": 2.0,
+      "absolute_change_percentage": 12.508,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "594103",
+      "category_paths": [
+        "Deli > Deli Meat"
+      ],
+      "change": 2.0,
+      "change_percentage": 12.508,
+      "current_regular_price": 17.99,
+      "departments": [
+        "Deli"
+      ],
+      "direction": "increase",
+      "event_key": "2026-08-29:2026-08-30:gala:store:6:product:306492",
+      "from_date": "2026-08-29",
+      "is_anomaly": false,
+      "name": "Higueral Popular Cooked Salami, 40 Oz",
+      "previous_regular_price": 15.99,
+      "product_key": "gala:store:6:product:306492",
+      "retailer_product_id": "306492",
+      "sku": "0074354204407",
+      "source_id": "306492",
+      "sp_id": "594103",
+      "to_date": "2026-08-30"
+    }
+  ],
+  "comparison": {
+    "additions": 20,
+    "anomalies": 0,
+    "assortment_churn_percentage": 1.835,
+    "matched_products": 8187,
+    "missing_products": 79,
+    "price_decreases": 1,
+    "price_increases": 3,
+    "prior_overlap_percentage": 99.044,
+    "returns": 54,
+    "unchanged_or_uncomparable_prices": 8183
+  },
+  "from_date": "2026-08-29",
+  "price_decreases": 1,
+  "price_increases": 3,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-08-30",
+  "total_changes": 4
+}
