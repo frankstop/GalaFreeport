@@ -1,0 +1,168 @@
+{
+  "changes": [
+    {
+      "absolute_change": 2.11,
+      "absolute_change_percentage": 35.167,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "353889",
+      "category_paths": [
+        "Grocery > Baking Needs > Flour"
+      ],
+      "change": -2.11,
+      "change_percentage": -35.167,
+      "current_regular_price": 3.89,
+      "departments": [
+        "Grocery"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-09-01:2026-09-02:gala:store:6:product:286709",
+      "from_date": "2026-09-01",
+      "is_anomaly": false,
+      "name": "P.A.N. 100% White Corn, 35.27 Oz",
+      "previous_regular_price": 6.0,
+      "product_key": "gala:store:6:product:286709",
+      "retailer_product_id": "286709",
+      "sku": "0073990700001",
+      "source_id": "286709",
+      "sp_id": "353889",
+      "to_date": "2026-09-02"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 15.075,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "360034",
+      "category_paths": [
+        "Vegetable > Potato"
+      ],
+      "change": 0.3,
+      "change_percentage": 15.075,
+      "current_regular_price": 2.29,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-09-01:2026-09-02:gala:store:6:product:292854",
+      "from_date": "2026-09-01",
+      "is_anomaly": false,
+      "name": "Potato White Loose",
+      "previous_regular_price": 1.99,
+      "product_key": "gala:store:6:product:292854",
+      "retailer_product_id": "292854",
+      "sku": "0000000000982",
+      "source_id": "292854",
+      "sp_id": "360034",
+      "to_date": "2026-09-02"
+    },
+    {
+      "absolute_change": 0.3,
+      "absolute_change_percentage": 9.119,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "363135",
+      "category_paths": [
+        "Vegetable > Onions & Garlic"
+      ],
+      "change": -0.3,
+      "change_percentage": -9.119,
+      "current_regular_price": 2.99,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-09-01:2026-09-02:gala:store:6:product:295955",
+      "from_date": "2026-09-01",
+      "is_anomaly": false,
+      "name": "Minkus Red Onion Bag, 2 Lb",
+      "previous_regular_price": 3.29,
+      "product_key": "gala:store:6:product:295955",
+      "retailer_product_id": "295955",
+      "sku": "0003338360101",
+      "source_id": "295955",
+      "sp_id": "363135",
+      "to_date": "2026-09-02"
+    },
+    {
+      "absolute_change": 0.2,
+      "absolute_change_percentage": 8.734,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "592208",
+      "category_paths": [
+        "Vegetable > Lettuce"
+      ],
+      "change": 0.2,
+      "change_percentage": 8.734,
+      "current_regular_price": 2.49,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "increase",
+      "event_key": "2026-09-01:2026-09-02:gala:store:6:product:355814",
+      "from_date": "2026-09-01",
+      "is_anomaly": false,
+      "name": "Fresh Produce Iceberg Lettuce",
+      "previous_regular_price": 2.29,
+      "product_key": "gala:store:6:product:355814",
+      "retailer_product_id": "355814",
+      "sku": "0000000004061",
+      "source_id": "355814",
+      "sp_id": "592208",
+      "to_date": "2026-09-02"
+    },
+    {
+      "absolute_change": 0.8,
+      "absolute_change_percentage": 34.934,
+      "branch_product_id": null,
+      "brand": null,
+      "calendar_gap_days": 1,
+      "catalog_product_id": "350297",
+      "category_paths": [
+        "Vegetable > Squash & Zucchini"
+      ],
+      "change": -0.8,
+      "change_percentage": -34.934,
+      "current_regular_price": 1.49,
+      "departments": [
+        "Vegetable"
+      ],
+      "direction": "decrease",
+      "event_key": "2026-09-01:2026-09-02:gala:store:6:product:373312",
+      "from_date": "2026-09-01",
+      "is_anomaly": false,
+      "name": "Squash Kobocha",
+      "previous_regular_price": 2.29,
+      "product_key": "gala:store:6:product:373312",
+      "retailer_product_id": "373312",
+      "sku": "0020476900000",
+      "source_id": "373312",
+      "sp_id": "350297",
+      "to_date": "2026-09-02"
+    }
+  ],
+  "comparison": {
+    "additions": 10,
+    "anomalies": 0,
+    "assortment_churn_percentage": 2.035,
+    "matched_products": 8137,
+    "missing_products": 89,
+    "price_decreases": 3,
+    "price_increases": 2,
+    "prior_overlap_percentage": 98.918,
+    "returns": 70,
+    "unchanged_or_uncomparable_prices": 8132
+  },
+  "from_date": "2026-09-01",
+  "price_decreases": 3,
+  "price_increases": 2,
+  "report": "price_changes_day",
+  "schema_version": "1.0",
+  "to_date": "2026-09-02",
+  "total_changes": 5
+}
