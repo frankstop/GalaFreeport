@@ -1,3 +1,6 @@
+> [!WARNING]
+> **Retired — September 6, 2026.** This personal project has reached end of life. Maintenance, support, and automated updates have ended. Existing code and data remain available for reference; any setup or automation instructions below are historical. Published data is no longer refreshed and may be out of date.
+
 # Gala Freeport–Merrick Catalog Research
 
 Daily longitudinal research on the anonymous public online catalog for Gala
